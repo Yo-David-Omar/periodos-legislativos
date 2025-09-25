@@ -1,5 +1,5 @@
 
-
+/*
 @import url(/opciones/opcionezq.css);
 @import url(/informacion/indicetematico.css);
 @import url('https://fonts.googleapis.com/css2?family=Meie+Script&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=UnifrakturMaguntia&display=swap');
@@ -12,7 +12,7 @@
 }
 
 
-/*cuadro del lado derecho de la pantalla */
+/*cuadro del lado derecho de la pantalla 
 
 .cuadrocolor{
     background-color: white;
@@ -30,7 +30,7 @@
 
 .slider-container {
     width: 100%;
-    height: 180px; /* ajusta este valor según necesites */
+    height: 180px; /* ajusta este valor según necesites 
     overflow: hidden;
     position: relative;
 }
@@ -92,14 +92,14 @@
     
 }
 
-/*--------------------------------------*/
+/*--------------------------------------
 
 body{
     background-color:rgb(255, 245, 232);
   
 }
 
-/*parte del titulo principal*/
+/*parte del titulo principal
 .altura{
     margin-top: 30%;
 }
@@ -116,7 +116,7 @@ body{
 }
 
 
-/*estilos de parrafos*/
+/*estilos de parrafos
 .parrafos div{
     color: #1f6dd2;
     margin: 5%;
@@ -129,7 +129,7 @@ body{
     width: 50%;
 }
 
-/*parrafos titulos h4*/
+/*parrafos titulos h4
 
 .parrafos a{
     overflow: visible;
@@ -156,7 +156,7 @@ body{
     color: white;
 }
 
-/*fin parrafos h4*/
+/*fin parrafos h4
 
 
 .parrafos p{
@@ -171,7 +171,7 @@ body{
 }
 
 
-/*imagen volver hacia arriba*/
+/*imagen volver hacia arriba
 
 .back{
     position: fixed;
@@ -263,14 +263,14 @@ select{
 /*imagenes*/
 /*--------------------------------------------------------------------*/
 
-/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
 
 .btop{
     justify-content: space-around;
     height: 4%;
 }
 
-/*buscador por apellidos*/
+/*buscador por apellidos
 .buscador div a{
     transition: all .5s;
 }
@@ -331,7 +331,7 @@ select{
     color: rgb(248, 248, 248);
     
 }
-/*estilo que si o si tiene que estar*/
+/*estilo que si o si tiene que estar
 .buscador div a:hover{
     background-color: rgb(180, 45, 24);
 
@@ -398,7 +398,7 @@ select{
     padding: 5px;
 }
 
-/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
 .fotos{
     margin-top: 20%;
     
@@ -494,6 +494,279 @@ select{
     .apellidos div a{
         width: 2%;
         font-size: 1em;
+    }
+    .apellidos:hover a{
+        width: 2%;
+    }
+    .parrafos{
+        font-size: .9em;
+    }
+    .blateral1{
+        bottom: 2%;
+    }
+}
+    @import url(/informacion/indicetematico.css);
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=UnifrakturMaguntia&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background-color:rgb(255, 245, 232);
+  
+}
+
+/*parte del titulo principal*/
+.altura{
+    margin-top: 30%;
+}
+
+.tituloleg h4{
+    margin-right: 10%;
+    width: 30%;
+    font-size: 1.3em;
+}
+
+
+.jaldo{
+    padding-top: 25%;
+}
+
+
+/*estilos de parrafos*/
+.parrafos div{
+    color: #1f6dd2;
+    margin: 5%;
+    
+}
+.parrafos{
+    div p{
+        text-transform: uppercase;
+    }
+}
+
+
+.parrafos{
+    margin: 5% 0 20% 15%;
+    width: 50%;
+}
+
+/*parrafos titulos h4*/
+
+.parrafos a{
+    overflow: visible;
+    text-decoration: none;
+    color: #5285cc;
+    height: 30px;
+}
+.parrafos a:hover{
+    text-decoration-line: underline;
+    transition: all .5s;
+}
+
+.parrafos h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parrafos h4:hover{
+    background-color: #5285cc;
+    color: white;
+}
+
+.parrafos h4 a:hover{
+    color: white;
+}
+
+/*fin parrafos h4*/
+
+
+.parrafos p{
+    line-height: 18px;
+    font-size: .9em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.parrafos p::first-letter{
+    font-size: 18px;
+    margin: 1px;
+    
+}
+
+
+/*imagen volver hacia arriba*/
+
+.back{
+    position: fixed;
+    z-index: 4;
+    left: 70%;
+    font-size: 20px;
+    color: white;
+    width: 20px;
+    text-align: center;
+    font-size: 30px;
+    bottom: 2%;
+}
+.back img{
+    width: 40px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.back a{
+    color: white;
+}
+
+.back2{
+    left: -150px;
+}
+
+
+label{
+    margin-left: 200px;
+}
+select{
+    margin-left: 250px;
+
+}
+
+.fotos{
+    margin-top: 20%;
+    
+}
+.fotos img{
+    display: none;
+}
+
+.fotos:hover img{
+    display: block;
+    position: fixed;
+    top: 25%;
+    width: 15%;
+    right: 0;
+}
+
+
+.fotos1 img{
+    display: none;
+}
+
+.fotos1:hover img{
+    display: block;
+    position: fixed;
+    top: 30%;
+    width: 15%;
+    right: 0;
+}
+
+.indice p a{
+    cursor: pointer;
+}
+/*footer*/
+.footer {
+      background-color: #0a1a3f; /* Azul oscuro institucional */
+      color: #ffffff;
+      padding: 40px 0;
+      font-size: 0.95rem;
+    }
+    .footer a {
+      color: #a0d0ff;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+    .footer h5 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .footer-divider {
+      border-top: 1px solid #3a5a8f;
+      margin: 20px 0;
+    }
+    .footer-bottom {
+      background-color: #071028;
+      padding: 15px 0;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+    .buscador{
+        
+        font-size: .7em;
+    }
+    .apellidos div a{
+        width: 2%;
+        font-size: .9em;
+    }
+    .apellidos div{
+        
+        margin: 1% 0;
+        border: none;
+    }
+    .apellidos:hover a{
+        width: 2%;
+    }
+    .parrafos{
+        font-size: .6em;
+        margin-left: 20%
+    }
+    .borde1{
+        top: 17%;
+    }
+    
+    .blateral1{
+        bottom: 2%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .buscador{
+        
+        font-size: .7em;
+    }
+    .apellidos div a{
+        width: 2%;
+        font-size: .9em;
+    }
+    .apellidos div{
+        
+        margin: 1% 0;
+       
+    }
+    .apellidos:hover a{
+        width: 2%;
+    }
+    .parrafos{
+        font-size: .8em;
+    }
+    
+    .blateral1{
+        bottom: 2%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    .buscador{
+        
+        font-size: .8em;
+    }
+    .apellidos div a{
+        width: 2%;
+        font-size: 1em;
+    }
+    .apellidos div{
+        
+        margin: 1% 0;
+       
     }
     .apellidos:hover a{
         width: 2%;

@@ -328,13 +328,13 @@ body{
     background-image: linear-gradient(to bottom left,  rgb(97, 154, 207) -60%, #fcfcfc 100%);
 }
 
-/*enlace sumario*/
+/*enlace sumario y contenido del diario de sesiones*/
 
 .go-sumario{
     border-right: 2px double rgb(73, 50, 50);
     display: flex;
     justify-content: flex-end;
-    margin: 3%;
+    margin: 5%;
 }
 .go-sumario a:hover{
     color: rgb(115, 115, 138);
