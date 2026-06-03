@@ -20,10 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
   /*agregar imagenes*/
   // Arreglo con las imágenes
   const images = [
-    "/imagenescudo/altabiblioteca.jpg",
-    "/imagenescudo/114-periodoleg.png",
-    "/imagenescudo/biblioantigua.jpg",
-    "/imagenescudo/altabiblioteca.jpg"
+    "/periodo115/imagenescudo/notebook.jpg",
+    "/periodo115/imagenescudo/digesto salon.jpg",
+    "/periodo115/imagenescudo/portada.jpg",
+    "/periodo115/imagenescudo/imagenperiodo115.png",
+    "/periodo115/imagenescudo/libro y notebook.jpg"
 ];
 
 const container = document.getElementById('carousel-items-container');

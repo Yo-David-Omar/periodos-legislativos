@@ -101,31 +101,27 @@ body{
 .medio{
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: flex-start;
-   
 }
 
-.cuadrox2{
-    width: 60%;
+.cuadro{
     display: flex;
-    justify-content: center; 
-    margin-left: 10%;
+    justify-content: center;
+    align-items: center; 
 }
-.cuadrox2 div{
-    width: 100%;
+.cuadro div{
+    width: 20%;
     padding: 4%;
     margin: 4%;
     background-color: rgb(218, 213, 213);
 }
-.cuadrox2 div p a{
+.cuadro div p a{
     text-decoration: none;
     color: cadetblue;
 }
-.cuadrox2 div p:hover {
+.cuadro div p:hover {
     background-color: aliceblue;
 }
-.cuadrox2 div h4{
+.cuadro div h4{
     text-align: center;
     background-color: #b7b1b1;
     padding: 1%;
@@ -133,10 +129,10 @@ body{
     color: rgb(91, 116, 116);
     font-family: Arial, Helvetica, sans-serif;
 }
-.cuadrox2 div p{
+.cuadro div p{
     margin-bottom: 3%;
 }
-.cuadrox2 div p a strong{
+.cuadro div p a strong{
     font-size: 1.8em;
     border-bottom: 1px solid black;
     margin-bottom: 2%;
@@ -401,7 +397,7 @@ body{
 
 /*footer*/
 .next {
-    opacity: .5;
+    opacity: .7;
     height: 10%;
     background-color: rgb(233, 230, 230);
     display: flex;

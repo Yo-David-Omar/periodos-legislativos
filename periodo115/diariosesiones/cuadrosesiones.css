@@ -110,6 +110,7 @@ body{
     grid-template-rows: fit-content(40%);
     
     background-image: linear-gradient(to bottom left,  rgb(97, 154, 207) -60%, #fcfcfc 100%);
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: .8em;
     top: 7%;

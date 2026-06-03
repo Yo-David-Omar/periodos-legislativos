@@ -270,7 +270,7 @@ p{
     text-decoration: none;
     color: black;
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(97, 154, 207);
 }
 
@@ -292,7 +292,7 @@ h2{
 
 
 
-/*footer con enlace a mandato de legisladores*/
+/*footer con enlace a mandato de legisladores----
 
 .man-ses{
     position: fixed;
@@ -314,7 +314,7 @@ h2{
     background-color: #ccc;
     font-size: 12px;
 }
-
+--------------------------------------------------*/
 
 
 /*tres libros*/
@@ -372,7 +372,7 @@ h2{
 }
 .borde2:hover div a{
     display: block;
-    border-left: 1px solid rgb(95, 95, 84);
+    border-left: 2px solid rgb(94, 94, 83);
     
    
 }
@@ -390,10 +390,10 @@ h2{
     padding: 3%;
 }
 .borde2 .bde{
-    border-bottom: 2px solid rgb(214, 199, 199);
+    border-bottom: 3px solid rgb(214, 199, 199);
     margin: 1%;
     width: 7%;
-    margin-left: 35%;
+    margin-left: 65%;
    
 }
 .opcion2 p{

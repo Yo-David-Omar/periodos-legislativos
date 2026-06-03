@@ -43,7 +43,59 @@ body{
     display: none;
 }
 
+/*--AQUÍ TENEMOS EL BORDE DE LOS PERIODOS LEGISLATIVOS------------------------------------------*/
 
+.bord{
+    width: 100%;
+    height: 100vh;
+    
+    overflow: auto;
+    max-height: 100%;
+    width: calc(100% + 20px);
+    
+}
+.bord div{
+    border-right: 10px solid cadetblue;
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    background-color: cadetblue;
+    color: mistyrose;
+}
+
+.bord a{
+    text-decoration: none;
+    margin-top: 3%;
+    color: rgb(173, 118, 78);
+}
+
+.bord img{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    width: 17%;
+   
+}
+
+
+.bord div a:hover p{
+    border-bottom: 1px solid rgb(100, 90, 90);
+    padding-left: 10%;
+    color: rgb(255, 255, 255);
+    background-color: darkcyan;
+    text-shadow: 1px 1px 3px rgb(3, 3, 2);   
+}
+
+.bord div p{
+    transition: all .5s;
+    padding: 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+/*-------------------------------------------------------------------------------------*/
 
 /*---------------------------------*/
 .trespartes{
@@ -58,7 +110,7 @@ body{
    
 }
 .trespartes div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(193,210,227);
     padding: 3%;
     border: 1px solid black;
     
@@ -71,7 +123,7 @@ body{
     place-items: center;
     font-weight:bold;
     line-height: 1.5;
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
@@ -137,7 +189,7 @@ body{
     place-items: center;
     font-weight:bold;
     line-height: 1.5;
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     grid-column: 1 / 2 ;
     grid-row: 1 / 4;
 }
@@ -148,7 +200,7 @@ body{
     place-items: center;
     font-weight:bold;
     line-height: 1.5;
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     grid-column: 1 / 2;
     grid-row: 1 / 5;
 }
@@ -170,7 +222,7 @@ body{
    
 }
 .tresp div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(163, 208, 237);
     padding: 3%;
     border: 1px solid black;
     
@@ -218,15 +270,15 @@ body{
 }
 /*----------------------------------------------*/
 .recepcion{
-    margin: 8% 0 0 17%;
+    margin: 8% 0 0 18%;
     width: 50%;
     display: grid;
-    grid-template-columns: 35% 30% 40%;
+    grid-template-columns: 35% 30% 37%;
     grid-template-rows: 26 (min-content 10% max-content 40%);
     
 }
 .recepcion div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(193,210,227);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
@@ -252,7 +304,7 @@ body{
     line-height: 1.4;
     font-weight: bold; 
    
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
    
 }
@@ -319,7 +371,7 @@ body{
     
 }
 .comision div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(193,210,227);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
@@ -348,7 +400,7 @@ body{
     line-height: 1.4;
     font-weight: bold; 
    
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
    
 }
@@ -494,56 +546,56 @@ body{
     
 }
 .mesa div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(193,210,227);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa1 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(193,210,227);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa2 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(193,210,227);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa3 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(163, 208, 237);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa4 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(163, 208, 237);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa5 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(163, 208, 237);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa6 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(163, 208, 237);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa7 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(163, 208, 237);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
@@ -643,7 +695,7 @@ body{
     line-height: 1.4;
     font-weight: bold; 
    
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
    
 }
@@ -655,7 +707,7 @@ body{
     line-height: 1.4;
     font-weight: bold; 
 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 .pri3{
@@ -665,7 +717,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 .pri4{
@@ -675,7 +727,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 .pri5{
@@ -685,7 +737,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 .pri6{
@@ -695,7 +747,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 .pri7{
@@ -706,7 +758,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 .pri8{
@@ -717,7 +769,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 .pri9{
@@ -728,7 +780,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 .pri10{
@@ -739,7 +791,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 .pri11{
@@ -750,7 +802,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 .pri12{
@@ -761,7 +813,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(64, 97, 128);
     text-align: center;
 }
 
@@ -1033,8 +1085,8 @@ body{
     height: 6%;
     position: fixed;
     background-color: white;
-    right: 2%;
-    top: 45%;
+    right: 85%;
+    top: 10%;
     background-color: brown;
     
 }
@@ -1059,9 +1111,11 @@ body{
 .container-modal{
     
     position: fixed;
-    top: 25%;
-    right: 1%;
- 
+    top: 18%;
+    right: 82%;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1.1px;
+    line-height: 1.3;
     display: none;
     justify-content: center;
     align-items: center;
@@ -1072,7 +1126,7 @@ body{
 }
 .content-modal{
     width: 100%;
-    max-width: 400px;
+    max-width: 250px;
     background-color: brown;
     border-radius: 4px;
 

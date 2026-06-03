@@ -16,13 +16,13 @@ body{
 .back{
     position: fixed;
     bottom: 5%;
-    right: 27%;
+    right: 9%;
     width: 20px;
     text-align: center;
     z-index: 600;
 }
 .back a img{
-    width: 40px;
+    width: 80px;
     height: auto;
     border: 1px solid black;
     border-radius: 4px;
@@ -683,10 +683,10 @@ li:hover{
 /*lateral derecho modo informacion*/
 .blateral{
     width: 12%;
-    height: 250px;
+    height: 300px;
     position: fixed;
     right: 2%;
-    bottom: 15%;
+    bottom: 25%;
     overflow: hidden;
     border-radius: 5px;
     background-color: white;
@@ -716,7 +716,7 @@ li:hover{
 .blateral div p{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(98, 135, 179);
-    font-size: .8em;
+    font-size: .9em;
 }
 /*----------------------------------------------------------------*/
 .blateral1{

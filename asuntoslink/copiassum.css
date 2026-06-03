@@ -308,7 +308,7 @@ a{
 }
 
 .cont p{
-    font-size: 1em;
+    font-size: 1em; /*lo agrandé estaba en .9em*/
     margin:10px;                                                                                                                              
     text-align: justify;      
 }
@@ -323,7 +323,7 @@ a{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: justify;
-    font-size: .9em;
+    font-size: 1em;
 }
 
 .c-r{
@@ -432,7 +432,7 @@ a{
 
 .pp2 p{ 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .9em;
+    font-size: 1em; /*lo agrandé estaba en .9em*/
     width: 50%;
     margin-bottom: 3%;
 }

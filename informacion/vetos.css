@@ -180,10 +180,10 @@ body{
 }
 
 .blateral1{
-    width: 12%;
-    height: 200px;
+    width: 15%;
+    height: 400px;
     position: fixed;
-    left: 6%;
+    left: 2%;
     top: 11%;
     overflow: hidden;
     border-radius: 5px;
@@ -196,9 +196,9 @@ body{
     max-height: 100%;
     width: calc(100% + 17px);
     
-    font-size: .9em;
+    font-size: 1em;
     text-align: start;
-    padding: 8%;
+    padding: 4%;
 }
 .blateral1 div h1{
     text-align: center;

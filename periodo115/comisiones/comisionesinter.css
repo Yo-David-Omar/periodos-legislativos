@@ -58,7 +58,7 @@ body{
    
 }
 .trespartes div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     padding: 3%;
     border: 1px solid black;
     
@@ -71,7 +71,7 @@ body{
     place-items: center;
     font-weight:bold;
     line-height: 1.5;
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
@@ -170,7 +170,7 @@ body{
    
 }
 .tresp div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     padding: 3%;
     border: 1px solid black;
     
@@ -183,7 +183,7 @@ body{
     place-items: center;
     font-weight:bold;
     line-height: 1.5;
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     grid-column: 1 / 2;
     grid-row: 1 / 5;
 }
@@ -494,63 +494,63 @@ body{
     
 }
 .mesa div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa1 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa2 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa3 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa4 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa5 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa6 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa7 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
     justify-content:left;
 }
 .mesa8 div{
-    background-color: rgb(236, 244, 247);
+    background-color: rgb(153, 174, 209);
     border: .5px solid #8f8f8f;
     padding: 6px;
     display: flex;
@@ -655,7 +655,7 @@ body{
     line-height: 1.4;
     font-weight: bold; 
 
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     text-align: center;
 }
 .pri3{
@@ -675,7 +675,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     text-align: center;
 }
 .pri5{
@@ -695,7 +695,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     text-align: center;
 }
 .pri7{
@@ -706,7 +706,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     text-align: center;
 }
 .pri8{
@@ -717,7 +717,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     text-align: center;
 }
 .pri9{
@@ -728,7 +728,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     text-align: center;
 }
 .pri10{
@@ -739,7 +739,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     text-align: center;
 }
 .pri11{
@@ -750,7 +750,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     text-align: center;
 }
 .pri12{
@@ -761,7 +761,7 @@ body{
     align-items: center;
     line-height: 1.4;
     font-weight: bold; 
-    color:rgb(97, 154, 207);
+    color:rgb(85, 86, 79);
     text-align: center;
 }
 
@@ -920,7 +920,7 @@ body{
     grid-row: 7 / 11;
 }
 .pj2{
-    grid-row: 7 / 9;
+    grid-row: 7 / 12;
 }
 .pj3{
     grid-row: 8 / 12;
@@ -974,7 +974,7 @@ body{
     grid-row: 12 / 18;
 }
 .pres4{
-    grid-row: 10 / 16;
+    grid-row: 13 / 16;
 }
 .pres5{
     grid-row: 23 / 27;
@@ -1033,14 +1033,14 @@ body{
     height: 6%;
     position: fixed;
     background-color: white;
-    right: 2%;
-    top: 45%;
+    right: 84%;
+    top: 12%;
     background-color: brown;
     
 }
 .boton-modal p{
     font-size: .9em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .boton-modal label{
     
@@ -1059,8 +1059,8 @@ body{
 .container-modal{
     
     position: fixed;
-    top: 25%;
-    right: 1%;
+    top: 18%;
+    right: 82%;
  
     display: none;
     justify-content: center;
@@ -1071,7 +1071,7 @@ body{
     display: flex;
 }
 .content-modal{
-    width: 100%;
+    width: 70%;
     max-width: 400px;
     background-color: brown;
     border-radius: 4px;
@@ -1086,8 +1086,9 @@ body{
     background-color: #d3cece;
 }
 .content-modal p{
+    font-family:Arial, Helvetica, sans-serif;
     font-size: .8em;
-    padding: 15px 0px;
+    padding: 15px 10px;
     border-top: 1px solid #dbdbdb;
     border-bottom: 1px solid #dbdbdb;
     color: white;

@@ -142,10 +142,10 @@ body{
 }
 /*constituciond de la provincia*/
 .blateral1{
-    width: 12%;
-    height: 200px;
+    width: 15%;
+    height: 300px;
     position: fixed;
-    left: 5%;
+    left: 3%;
     top: 10%;
     overflow: hidden;
     border-radius: 5px;
@@ -158,7 +158,7 @@ body{
     max-height: 100%;
     width: calc(100% + 17px);
     
-    font-size: .9em;
+    font-size: 1em;
     text-align: start;
     padding: 8%;
 }
