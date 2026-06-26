@@ -18,16 +18,24 @@
         <div class="collapse navbar-collapse" id="navbarContenido">
           <ul class="navbar-nav w-100 d-flex justify-content-around mb-2 mb-lg-0 text-center">
               <li>
-                <a class="nav-link text-white" href="/index.html">Inicio</a>
-              </li>
-             
-              <li class="nav-item">
-                <a class="nav-link text-white" href="/periodo115/legisladores/autoridades.html">Autoridades</a>
+               <select class="form-select form-select-lg bg-white" id="menuNavegacion" aria-label=".form-select-lg example">
+                    <option selected disabled>≡ Menú</option>
+                    <option value="/index.html">🏠 INICIO</option>
+                    <option value="/periodo115/legisladores/autoridades.html">👥 AUTORIDADES</option>
+                    <option value="/periodo115/legisladores/cuadromandatos.html">👥 MANDATOS Y SEC. ELECTORALES</option>
+                    <option value="/periodo115/legisladores/bloquespoliticos.html">📖 BLOQUES POLÍTICOS</option>
+                    <option value="/periodo115/informacion/indicetematico.html">📚 INDICE TEMÁTICO</option>
+                    <option value="/periodo115/informacion/inicio_integrantes115.html">📊 ACTIVIDAD PARLAMENTARIA</option>
+                    <option value="/periodo115/comisiones/cuadrocomisiones.html">📋 COMISIONES</option>
+                    <option value="/periodo115/diariosesiones/cuadrosesiones.html">📖DIARIO DE SESIONES</option>
+                    <option value="/periodo115/informacion/cuadroleyes.html">⚖️ CUADRO DE LEYES</option>
+                    <option value="/periodo115/asuntoslink/buscadorasuntos.html">🔍CUADRO ASUNTOS</option>
+                  </select>
               </li>
               <li>
                 <a class="nav-link text-white" href="#">115° PERÍODO LEGISLATIVO</a>
               </li>
-              <li><a class="nav-link text-white" href="/periodo115/diariosesiones/cuadrosesiones.html">Diario de Sesiones</a></li>
+              
             </ul>
           </button>
     
@@ -38,6 +46,7 @@
         <ul class="dropdown-menu dropdown-menu-end">
           <div class="h-50 bg-light scroll-auto overflow-auto e-div">
             <a class="dropdown-item" href="/periodo115/informacion/inicio_integrantes115.html"> <strong> ACTIVIDAD PARLAMENTARIA</strong></a>
+            <a class="dropdown-item" href="../nomenclador115/jaldo.html">JALDO, Osvaldo Francisco <em> (Vicegobernador)</em></a>
             <a class="dropdown-item" href="../nomenclador115/albarracin.html">ALBARRACÍN, Raúl Eduardo</a>
             <a class="dropdown-item" href="../nomenclador115/alfaro.html">ALFARO, Pablo Agustín</a>
             <a class="dropdown-item" href="../nomenclador115/alperovich.html">ALPEROVICH, Sara</a>
@@ -61,7 +70,7 @@
             <a class="dropdown-item" href="../nomenclador115/gutierrezgraciela.html">GUTIÉRREZ, Graciela del Valle</a>
             <a class="dropdown-item" href="../nomenclador115/herrera.html">HERRERA, Daniel Alberto</a>
             <a class="dropdown-item" href="../nomenclador115/huesen.html">HUESEN, Mario Gerardo</a>
-            <a class="dropdown-item" href="../nomenclador115/jaldo.html">JALDO, Osvaldo Francisco <em> (Vicegobernador)</em></a>
+            
             <a class="dropdown-item" href="../nomenclador115/khoder.html">KHODER, Zacarías</a>
             <a class="dropdown-item" href="../nomenclador115/leal.html">LEAL, Jorge Abraham</a>
             <a class="dropdown-item" href="../nomenclador115/loza.html">LOZA, Dante Rolando</a>
@@ -360,12 +369,12 @@
         <div class="lista-periodos">
           <ul>
             <h4>Períodos Legislativos</h4>
-            <li class="option"><a href="#"><p>120° Período Legislativo<br> 01/03/2025-28/02/2026 </p></a></li>
+            <li class="option"><a href="#"><p>120° Período Legislativo <br>01/03/2025-28/02/2026 </p></a></li>
               <li class="option"><a href="#"><p>119° Período Legislativo <br>01/03/2024-28/02/2025 </p></a></li> 
               <li class="option"><a href="#"><p>118° Período Legislativo <br>01/03/2023-29/02/2024 </p></a></li> 
               <li class="option"><a href="#"><p>117° Período Legislativo <br>01/03/2022-28/02/2023 </p></a></li>  
               <li class="option"><a href="#"><p>116° Período Legislativo <br>01/03/2021-28/02/2022</p></a></li>
-              <li class="option"><a href="/periodo115/legisladores/autoridades.html"><p>115° Período Legislativo <br>01/03/2020-28/02/2021</p></a></li>   
+              <li class="option"><a href="#"><p>115° Período Legislativo <br>01/03/2020-28/02/2021</p></a></li>   
               <li class="option"><a href="#"><p>114° Período Legislativo <br>01/03/2019-29/02/2020</p></a></li>
               <li class="option"><a href="#"><p>113° Período Legislativo <br>01/03/2018-28/02/2019</p></a></li> 
           </ul>
@@ -376,5 +385,6 @@
 </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="nomenclador.js"></script>
-</body>
+<script src="/periodo115/legisladores/mandatoleg.js"></script> 
+ </body>
 </html>

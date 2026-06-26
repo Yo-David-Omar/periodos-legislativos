@@ -15,7 +15,7 @@ body{
     position: fixed;
     top: 20px;
     left: 20px;
-    background-color: yellow;
+    background-color: rgb(192, 192, 127);
     color: black;
     padding: 10px 20px;
     border: none;
@@ -167,7 +167,7 @@ body{
     height: 300px;
     display: flex;
     justify-content: center;
-    background-image: url(/imagenescudo/libroblanconegro.jpg);
+    background-image: url(/imagenescudo/casahistorica.jpg);
     background-size: 100% ;
     background-repeat: no-repeat;
     border-bottom-right-radius: 800px;
@@ -289,7 +289,7 @@ body{
 .principal1 div h3{
     text-align: center;
     text-transform: uppercase;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     border: 1px solid rgb(195, 192, 192);
     z-index: 300;
     
@@ -364,7 +364,7 @@ body{
 }
 
 .circulo1 ul{
-    color: white;
+    color: rgb(251, 248, 248);
     text-shadow: 4px 4px 5px black;
     padding: 25%;
     width: 200px;
@@ -373,7 +373,7 @@ body{
     border-bottom: 1px solid white;
     background-color:  rgb(3, 3, 79);
     transition: all .5s;
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .circulo2 ul{
@@ -386,7 +386,7 @@ body{
     border-left: 1px solid white;
     background-color:  rgb(3, 3, 79);
     transition: all .5s;
-    font-size: .8em;
+    font-size: .9em;
 }
 .circulo3 ul{
     color: white;
@@ -398,7 +398,7 @@ body{
     border-top: 1px solid white;
     background-color:  rgb(3, 3, 79);
     transition: all .5s;
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .circulo1 ul li{

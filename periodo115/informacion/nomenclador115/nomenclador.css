@@ -87,6 +87,7 @@ body{
 .clase-header{
     z-index: 1000;
     nav{
+      
       background-color: brown;
     }
     img{

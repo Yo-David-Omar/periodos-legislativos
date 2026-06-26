@@ -48,6 +48,7 @@ body{
 
 
 /*poder legislativo inicio*/
+ 
 
 .poder-leg{
     border: 4px double rgb(178, 178, 178);
@@ -57,7 +58,10 @@ body{
     margin-bottom: 10%;
     margin-top: 5%;
     margin: 5% 5% 10% 18%;
+   
 }
+
+
 .poder-leg p span{
     
     font-weight: bold;
@@ -81,7 +85,7 @@ body{
     text-decoration: none;
     color: black;
     letter-spacing: 2px;
-    font-size: 2.8em;
+    font-size: 3.5em;
     color: rgb(97, 154, 207);
 }
 
@@ -317,7 +321,7 @@ li:hover{
 .borde2{
     
     position: fixed;
-    top: 2%;
+    top: 10%;
     left: 80%;
     width: 20%;
     z-index: 400;

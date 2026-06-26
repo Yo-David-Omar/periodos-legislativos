@@ -10,27 +10,37 @@
 
   <!-- NAVBAR -->
     <header class="bg-dark text-white text-center py-3 position-fixed clase-header">
-  <nav class="navbar navbar-expand-lg text-white fixed-top shadow">
-    <nav class="navbar navbar-expand-lg text-white fixed-top shadow">
+      <nav class="navbar navbar-expand-lg text-white fixed-top shadow">
+        <nav class="navbar navbar-expand-lg text-white fixed-top shadow">
       <div class="container-fluid ">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido">
           <span class="navbar-toggler-icon"></span>
         </button>
+
           <div class="collapse navbar-collapse" id="navbarContenido">
             <ul class="navbar-nav w-100 d-flex justify-content-around mb-2 mb-lg-0 text-center">
-              <li>
-                <a class="nav-link text-white" href="/index.html">Inicio</a>
-              </li>
-             
-              <li class="nav-item">
-                <a class="nav-link text-white" href="/periodo115/legisladores/autoridades.html">Autoridades</a>
-              </li>
-              <li>
-                <a class="nav-link text-white" href="#">115° PERÍODO LEGISLATIVO</a>
-              </li>
-              <li><a class="nav-link text-white" href="/periodo115/diariosesiones/cuadrosesiones.html">Diario de Sesiones</a></li>
+                <li>
+                  <select class="form-select form-select-lg bg-white" id="menuNavegacion" aria-label=".form-select-lg example">
+                    <option selected disabled>≡ Menú</option>
+                    <option value="/index.html">🏠 INICIO</option>
+                    <option value="/periodo115/legisladores/autoridades.html">👥 AUTORIDADES</option>
+                    <option value="/periodo115/legisladores/cuadromandatos.html">👥 MANDATOS Y SEC. ELECTORALES</option>
+                    <option value="/periodo115/legisladores/bloquespoliticos.html">📖 BLOQUES POLÍTICOS</option>
+                    <option value="/periodo115/informacion/indicetematico.html">📚 INDICE TEMÁTICO</option>
+                    <option value="/periodo115/informacion/inicio_integrantes115.html">📊 ACTIVIDAD PARLAMENTARIA</option>
+                    <option value="/periodo115/comisiones/cuadrocomisiones.html">📋 COMISIONES</option>
+                    <option value="/periodo115/diariosesiones/cuadrosesiones.html">📖DIARIO DE SESIONES</option>
+                    <option value="/periodo115/informacion/cuadroleyes.html">⚖️ CUADRO DE LEYES</option>
+                    <option value="/periodo115/asuntoslink/buscadorasuntos.html">🔍CUADRO ASUNTOS</option>
+                  </select>
+                </li>
+                
+                <li>
+                  <a class="nav-link text-white" href="#">115° PERÍODO LEGISLATIVO</a>
+                </li>
+                
             </ul>
-            </button>
+                      
       
       <div class="dropdown ms-auto">
         <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown">
@@ -38,65 +48,66 @@
         </button>
 
         <ul class="dropdown-menu dropdown-menu-end">
-          <div class="h-50 bg-light scroll-auto overflow-auto e-div">
-            <a class="dropdown-item" href="/periodo115/informacion/inicio_integrantes115.html"> <strong> ACTIVIDAD PARLAMENTARIA</strong></a>
-            <a class="dropdown-item" href="../nomenclador115/albarracin.html">ALBARRACÍN, Raúl Eduardo</a>
-            <a class="dropdown-item" href="../nomenclador115/alfaro.html">ALFARO, Pablo Agustín</a>
-            <a class="dropdown-item" href="../nomenclador115/alperovich.html">ALPEROVICH, Sara</a>
-            <a class="dropdown-item" href="../nomenclador115/alvarez.html">ÁLVAREZ, Roque Tobías</a>
-            <a class="dropdown-item" href="../nomenclador115/amado.html">AMADO, Regino Néstor</a>
-            <a class="dropdown-item" href="../nomenclador115/ascarate.html">ASCÁRATE, José Ricardo</a>
-            <a class="dropdown-item" href="../nomenclador115/assansebastian.html">ASSAN, Carlos Sebastián</a>
-            <a class="dropdown-item" href="../nomenclador115/berarducci.html">BERARDUCCI, Walter Fabián</a>
-            <a class="dropdown-item" href="../nomenclador115/bethencourt.html">BETHENCOURT, Enrique Fabián</a>
-            <a class="dropdown-item" href="../nomenclador115/bourle.html">BOURLÉ, Eduardo Alberto</a>
-            <a class="dropdown-item" href="../nomenclador115/bussi.html">BUSSI, Ricardo Argentino</a>
-            <a class="dropdown-item" href="../nomenclador115/canelada.html">CANELADA, José María</a>
-            <a class="dropdown-item" href="../nomenclador115/caponiotulio.html">CAPONIO, Tulio Enrique</a>
-            <a class="dropdown-item" href="../nomenclador115/casali.html">CASALI, Mario César</a>
-            <a class="dropdown-item" href="../nomenclador115/cobos.html">COBOS, Eduardo Alberto</a>
-            <a class="dropdown-item" href="../nomenclador115/cortalezzi1.html">CORTALEZZI, Armando Roque</a>
-            <a class="dropdown-item" href="../nomenclador115/deiana.html">DEIANA, Víctor Daniel</a>
-            <a class="dropdown-item" href="../nomenclador115/ferrazzano.html">FERRAZZANO, Raúl Ezequiel</a>
-            <a class="dropdown-item" href="../nomenclador115/galvanpaula.html">GALVÁN, Paula Luján</a>
-            <a class="dropdown-item" href="../nomenclador115/gomez.html">GÓMEZ, Carlos Francisco</a>
-            <a class="dropdown-item" href="../nomenclador115/gutierrezgraciela.html">GUTIÉRREZ, Graciela del Valle</a>
-            <a class="dropdown-item" href="../nomenclador115/herrera.html">HERRERA, Daniel Alberto</a>
-            <a class="dropdown-item" href="../nomenclador115/huesen.html">HUESEN, Mario Gerardo</a>
-            <a class="dropdown-item" href="../nomenclador115/jaldo.html">JALDO, Osvaldo Francisco<em> (Vicegobernador)</em></a>
-            <a class="dropdown-item" href="../nomenclador115/khoder.html">KHODER, Zacarías</a>
-            <a class="dropdown-item" href="../nomenclador115/leal.html">LEAL, Jorge Abraham</a>
-            <a class="dropdown-item" href="../nomenclador115/loza.html">LOZA, Dante Rolando</a>
-            <a class="dropdown-item" href="../nomenclador115/mansilla.html">MANSILLA, Sergio Francisco</a>
-            <a class="dropdown-item" href="../nomenclador115/masso.html">MASSO, Federico Augusto</a>            
-            <a class="dropdown-item" href="../nomenclador115/mendoza.html">MENDOZA, Sandra Mariela</a>
-            <a class="dropdown-item" href="../nomenclador115/monteros.html">MONTEROS, Darío Gonzalo</a>
-            <a class="dropdown-item" href="../nomenclador115/morelli.html">MORELLI, Osvaldo Rubén</a>
-            <a class="dropdown-item" href="../nomenclador115/morof.html">MOROF, Mario Javier</a>
-            <a class="dropdown-item" href="../nomenclador115/najaradriana.html">NAJAR, Adriana del Valle</a>
-            <a class="dropdown-item" href="../nomenclador115/najarmarta.html">NAJAR, Marta Isabel</a>
-            <a class="dropdown-item" href="../nomenclador115/orellana.html">ORELLANA, Juan Enrique</a>
-            <a class="dropdown-item" href="../nomenclador115/orquera.html">ORQUERA, Sandra del Valle</a>
-            <a class="dropdown-item" href="../nomenclador115/palina.html">PALINA, Roberto Arnaldo</a>
-            <a class="dropdown-item" href="../nomenclador115/pecci.html">PECCI, Nadima del Valle</a>
-            <a class="dropdown-item" href="../nomenclador115/pellegrini.html">PELLEGRINI, Raúl César</a>
-            <a class="dropdown-item" href="../nomenclador115/poder.html">PODER EJECUTIVO</a>
-            <a class="dropdown-item" href="../nomenclador115/ramirez.html">RAMÍREZ, Edgar Renée</a>
-            <a class="dropdown-item" href="../nomenclador115/reyes.html">REYES ELÍAS, Norma Mariela</a>
-            <a class="dropdown-item" href="../nomenclador115/rodriguez.html">RODRÍGUEZ, Leopoldo Alberto</a>
-            <a class="dropdown-item" href="../nomenclador115/rojas.html">ROJAS, Juan Roberto</a>
-            <a class="dropdown-item" href="../nomenclador115/ruiz.html">RUIZ OLIVARES, Juan Antonio</a>
-            <a class="dropdown-item" href="../nomenclador115/silman.html">SILMAN, Julio Fabio</a>
-            <a class="dropdown-item" href="../nomenclador115/ternavasio.html">TERNAVASIO, Paulo Gabriel</a>
-            <a class="dropdown-item" href="../nomenclador115/tirado.html">TIRADO, Sandra Marcela</a>
-            <a class="dropdown-item" href="../nomenclador115/valdez.html">VALDEZ, Manuel Fernando</a>
-            <a class="dropdown-item" href="../nomenclador115/vargasgeronimo.html">VARGAS AIGNASSE, Gerónimo</a>
-            <a class="dropdown-item" href="../nomenclador115/vermal.html">VERMAL, José Horacio</a>
-            <a class="dropdown-item" href="../nomenclador115/yapura.html">YAPURA ASTORGA, Manuel Jorge</a>
-        </ul>
+              <div class="h-50 bg-light scroll-auto overflow-auto e-div">
+                <a class="dropdown-item" href="/periodo115/informacion/inicio_integrantes115.html"> <strong> ACTIVIDAD PARLAMENTARIA</strong></a>
+                <a class="dropdown-item" href="../nomenclador115/jaldo.html">JALDO, Osvaldo Francisco<em> (Vicegobernador)</em></a>
+                <a class="dropdown-item" href="../nomenclador115/albarracin.html">ALBARRACÍN, Raúl Eduardo</a>
+                <a class="dropdown-item" href="../nomenclador115/alfaro.html">ALFARO, Pablo Agustín</a>
+                <a class="dropdown-item" href="../nomenclador115/alperovich.html">ALPEROVICH, Sara</a>
+                <a class="dropdown-item" href="../nomenclador115/alvarez.html">ÁLVAREZ, Roque Tobías</a>
+                <a class="dropdown-item" href="../nomenclador115/amado.html">AMADO, Regino Néstor</a>
+                <a class="dropdown-item" href="../nomenclador115/ascarate.html">ASCÁRATE, José Ricardo</a>
+                <a class="dropdown-item" href="../nomenclador115/assansebastian.html">ASSAN, Carlos Sebastián</a>
+                <a class="dropdown-item" href="../nomenclador115/berarducci.html">BERARDUCCI, Walter Fabián</a>
+                <a class="dropdown-item" href="../nomenclador115/bethencourt.html">BETHENCOURT, Enrique Fabián</a>
+                <a class="dropdown-item" href="../nomenclador115/bourle.html">BOURLÉ, Eduardo Alberto</a>
+                <a class="dropdown-item" href="../nomenclador115/bussi.html">BUSSI, Ricardo Argentino</a>
+                <a class="dropdown-item" href="../nomenclador115/canelada.html">CANELADA, José María</a>
+                <a class="dropdown-item" href="../nomenclador115/caponiotulio.html">CAPONIO, Tulio Enrique</a>
+                <a class="dropdown-item" href="../nomenclador115/casali.html">CASALI, Mario César</a>
+                <a class="dropdown-item" href="../nomenclador115/cobos.html">COBOS, Eduardo Alberto</a>
+                <a class="dropdown-item" href="../nomenclador115/cortalezzi1.html">CORTALEZZI, Armando Roque</a>
+                <a class="dropdown-item" href="../nomenclador115/deiana.html">DEIANA, Víctor Daniel</a>
+                <a class="dropdown-item" href="../nomenclador115/ferrazzano.html">FERRAZZANO, Raúl Ezequiel</a>
+                <a class="dropdown-item" href="../nomenclador115/galvanpaula.html">GALVÁN, Paula Luján</a>
+                <a class="dropdown-item" href="../nomenclador115/gomez.html">GÓMEZ, Carlos Francisco</a>
+                <a class="dropdown-item" href="../nomenclador115/gutierrezgraciela.html">GUTIÉRREZ, Graciela del Valle</a>
+                <a class="dropdown-item" href="../nomenclador115/herrera.html">HERRERA, Daniel Alberto</a>
+                <a class="dropdown-item" href="../nomenclador115/huesen.html">HUESEN, Mario Gerardo</a>
+                
+                <a class="dropdown-item" href="../nomenclador115/khoder.html">KHODER, Zacarías</a>
+                <a class="dropdown-item" href="../nomenclador115/leal.html">LEAL, Jorge Abraham</a>
+                <a class="dropdown-item" href="../nomenclador115/loza.html">LOZA, Dante Rolando</a>
+                <a class="dropdown-item" href="../nomenclador115/mansilla.html">MANSILLA, Sergio Francisco</a>
+                <a class="dropdown-item" href="../nomenclador115/masso.html">MASSO, Federico Augusto</a>            
+                <a class="dropdown-item" href="../nomenclador115/mendoza.html">MENDOZA, Sandra Mariela</a>
+                <a class="dropdown-item" href="../nomenclador115/monteros.html">MONTEROS, Darío Gonzalo</a>
+                <a class="dropdown-item" href="../nomenclador115/morelli.html">MORELLI, Osvaldo Rubén</a>
+                <a class="dropdown-item" href="../nomenclador115/morof.html">MOROF, Mario Javier</a>
+                <a class="dropdown-item" href="../nomenclador115/najaradriana.html">NAJAR, Adriana del Valle</a>
+                <a class="dropdown-item" href="../nomenclador115/najarmarta.html">NAJAR, Marta Isabel</a>
+                <a class="dropdown-item" href="../nomenclador115/orellana.html">ORELLANA, Juan Enrique</a>
+                <a class="dropdown-item" href="../nomenclador115/orquera.html">ORQUERA, Sandra del Valle</a>
+                <a class="dropdown-item" href="../nomenclador115/palina.html">PALINA, Roberto Arnaldo</a>
+                <a class="dropdown-item" href="../nomenclador115/pecci.html">PECCI, Nadima del Valle</a>
+                <a class="dropdown-item" href="../nomenclador115/pellegrini.html">PELLEGRINI, Raúl César</a>
+                <a class="dropdown-item" href="../nomenclador115/poder.html">PODER EJECUTIVO</a>
+                <a class="dropdown-item" href="../nomenclador115/ramirez.html">RAMÍREZ, Edgar Renée</a>
+                <a class="dropdown-item" href="../nomenclador115/reyes.html">REYES ELÍAS, Norma Mariela</a>
+                <a class="dropdown-item" href="../nomenclador115/rodriguez.html">RODRÍGUEZ, Leopoldo Alberto</a>
+                <a class="dropdown-item" href="../nomenclador115/rojas.html">ROJAS, Juan Roberto</a>
+                <a class="dropdown-item" href="../nomenclador115/ruiz.html">RUIZ OLIVARES, Juan Antonio</a>
+                <a class="dropdown-item" href="../nomenclador115/silman.html">SILMAN, Julio Fabio</a>
+                <a class="dropdown-item" href="../nomenclador115/ternavasio.html">TERNAVASIO, Paulo Gabriel</a>
+                <a class="dropdown-item" href="../nomenclador115/tirado.html">TIRADO, Sandra Marcela</a>
+                <a class="dropdown-item" href="../nomenclador115/valdez.html">VALDEZ, Manuel Fernando</a>
+                <a class="dropdown-item" href="../nomenclador115/vargasgeronimo.html">VARGAS AIGNASSE, Gerónimo</a>
+                <a class="dropdown-item" href="../nomenclador115/vermal.html">VERMAL, José Horacio</a>
+                <a class="dropdown-item" href="../nomenclador115/yapura.html">YAPURA ASTORGA, Manuel Jorge</a>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
   </nav>
 </header>
 <main class="container-fluid">
@@ -105,7 +116,7 @@
         <div class="d-none d-md-block col-md-3 text-center imagen-circulo position-relative top-0 start-0">
           <div class="position-fixed top-0 start-0 h-100 bg-light shadow-sm p-3">
             <div class="mt-5">
-            <img src="/fotos/Raulalbarracin.jpg" class="img-fluid rounded-circle mb-3" alt="foto perfil">
+            <img src="/fotos/Albarracín, Raúl.png" class="img-fluid rounded-circle mb-3" alt="foto perfil">
             <h3>ALBARRACÍN, Raúl Eduardo</h3>
             </div>
             <div class="btn-group-vertical bot-sidebar e-div">
@@ -133,7 +144,7 @@
 
   <h4 class="mt-5" id="scrollspyHeading1">Debate:</h4>
   
-  <p><a href="/periodo115/asuntoslink/asuntoslink2.html#debate390">-Decreto Acuerdo de Necesidad y Urgencia n° 1/1- 2020 (Emergencia Epidemiológica en la Provincia). Aprobación,</a> 390.</p>
+  <p><a href="/periodos-legislativos/periodo115/asuntoslink/asuntoslink2.html#debate390">-Decreto Acuerdo de Necesidad y Urgencia n° 1/1- 2020 (Emergencia Epidemiológica en la Provincia). Aprobación,</a> 390.</p>
   
   <p><a href="/periodo115/asuntoslink/asuntoslink2.html#debate407">-Entes del Estado Provincial con atención al público, Transporte Público de Pasajeros y locales habilitados para el expendio de alimentos. Obligatoriedad de poner a disposición alcohol en gel o gel antibacteriano en un lugar visible,</a> 407.</p>
    
@@ -145,78 +156,76 @@
   
   <p><a href="/periodo115/asuntoslink/asuntoslink3.html#debate676">-Entidades bancarias de la Provincia de Tucumán. Obligatoriedad del pago únicamente a personas que no puedan percibir sus haberes por cajeros automáticos; y creación de “Cajeros Móviles,</a> 676.</p>
   
-  <p><a href="/periodo115/asuntoslink/asuntoslink3.html#ley21">-Proyecto de ley sancionado por La H. Legislatura en sesión de fecha 30/11/2018 (Prórroga por el término de dos años de la Ley n° 8981: Emergencia por Violencia Contra la Mujer). Solicitud al Poder Ejecutivo su numeración como ley y publicación,</a> 989.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink4.html#debate989">-Proyecto de ley sancionado por La H. Legislatura en sesión de fecha 30/11/2018 (Prórroga por el término de dos años de la Ley n° 8981: Emergencia por Violencia Contra la Mujer). Solicitud al Poder Ejecutivo su numeración como ley y publicación,</a> 989.</p>
   
-  <p>-Servicio Provincial de Transporte Público de Pasajeros. Establecimiento de medidas de seguridad sanitaria para prevenir el Covid-19, 1038.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink4.html#debate1037">-Servicio Provincial de Transporte Público de Pasajeros. Establecimiento de medidas de seguridad sanitaria para prevenir el Covid-19,</a> 1037.</p>
   
-  <p>-Ley Nacional n° 27499 (“Programa de Capacitación Obligatoria en Temática de Género y Violencia contra las Mujeres" –Ley Micaela). Adhesión de la Provincia, 1342.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink5.html#debate1342">-Ley Nacional n° 27499 (“Programa de Capacitación Obligatoria en Temática de Género y Violencia contra las Mujeres" –Ley Micaela). Adhesión de la Provincia,</a> 1342.</p>
   
-  <p>-Ley Nacional n° 26522 (Servicios de Comunicación Audiovisual). Solicitud al Poder Ejecutivo el cumplimiento del artículo 66 y concordantes; y el subtitulado de toda propaganda oficial relacionada con la prevención del Covid-19 y dengue, para la correcta recepción por parte de personas con discapacidades sensoriales, 1427.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink5.html#debate1427">-Ley Nacional n° 26522 (Servicios de Comunicación Audiovisual). Solicitud al Poder Ejecutivo el cumplimiento del artículo 66 y concordantes; y el subtitulado de toda propaganda oficial relacionada con la prevención del Covid-19 y dengue, para la correcta recepción por parte de personas con discapacidades sensoriales,</a> 1427.</p>
   
-  <p>-Ley n° 6953 (Caja de Previsión y Seguridad Social). Modificación, 1446.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink5.html#debate1446">-Ley n° 6953 (Caja de Previsión y Seguridad Social). Modificación,</a> 1446.</p>
   
-  <p>-Motoarrebatos. Establecimiento de normas de seguridad pública con participación de fuerzas federales para su prevención, 1504.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink5.html#debate1504">-Motoarrebatos. Establecimiento de normas de seguridad pública con participación de fuerzas federales para su prevención,</a> 1504.</p>
   
-  <p>-Firma “Suizo Argentina S. A.". Eximición del impuesto sobre los Ingresos Brutos por un plazo de cinco años, con cargo a inversión en el “Proyecto para el Desarrollo de una nueva planta de distribución, almacenamiento y comercialización de medicamentos y perfumería" creando nuevos puestos de trabajo; e igual beneficio para empresas del mismo rubro, 1873.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink6.html#debate1873">-Firma “Suizo Argentina S. A.". Eximición del impuesto sobre los Ingresos Brutos por un plazo de cinco años, con cargo a inversión en el “Proyecto para el Desarrollo de una nueva planta de distribución, almacenamiento y comercialización de medicamentos y perfumería" creando nuevos puestos de trabajo; e igual beneficio para empresas del mismo rubro,</a> 1873.</p>
   
-  <p>-Covid-19. Cierre de las fronteras de la Provincia por sesenta días corridos para un mayor control sanitario; y fijación de excepciones, 2355.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink7.html#debate2355">-Covid-19. Cierre de las fronteras de la Provincia por sesenta días corridos para un mayor control sanitario; y fijación de excepciones,</a> 2355.</p>
   
-  <p>-Inmuebles ubicados en Bella Vista, padrones nros. 79.553, 286.562 y 286.560 (Leales). Transferencia en donación a la Municipalidad de Bella Vista para el funcionamiento de la Plaza Principal, Municipalidad, Casa de la Cultura, Juzgado de Paz y toda otra oficina vinculada con el servicio de Justicia, 2375.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink7.html#debate2375">-Inmuebles ubicados en Bella Vista, padrones nros. 79.553, 286.562 y 286.560 (Leales). Transferencia en donación a la Municipalidad de Bella Vista para el funcionamiento de la Plaza Principal, Municipalidad, Casa de la Cultura, Juzgado de Paz y toda otra oficina vinculada con el servicio de Justicia,</a> 2375.</p>
   
-  <p>-Campaña de concientización sobre la importancia del cuidado social contra el Covid-19. Solicitud al Poder Ejecutivo el refuerzo de su realización, y a la sociedad tucumana respetar las decisiones y recomendaciones del Comité Operativo de Emergencia, 2694.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink8.html#debate2694">-Campaña de concientización sobre la importancia del cuidado social contra el Covid-19. Solicitud al Poder Ejecutivo el refuerzo de su realización, y a la sociedad tucumana respetar las decisiones y recomendaciones del Comité Operativo de Emergencia,</a> 2694.</p>
   
-  <p>-Ley nº 5140 (De Contravenciones Policiales) y sus modificatorias. Modificación (Sanción por Difusión, Propagación o Divulgación por Redes Sociales de Noticias Total o Parcialmente Falsas –Fake News), 3234.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink9.html#debate3234">-Ley nº 5140 (De Contravenciones Policiales) y sus modificatorias. Modificación (Sanción por Difusión, Propagación o Divulgación por Redes Sociales de Noticias Total o Parcialmente Falsas –Fake News),</a> 3234.</p>
   
-  <p>-Declaración a La Encrucijada (Burruyacu) como “Paraje Histórico de la Provincia de Tucumán", en Homenaje a don Bernabé Aráoz; Institución del 10 de Septiembre de cada año como “Día del Heroísmo Tucumano"; incorporación al Calendario Escolar, y solicitud al Congreso de la Nación su declaración como Prócer Nacional, 3243.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink9.html#debate3243">-Declaración a La Encrucijada (Burruyacu) como “Paraje Histórico de la Provincia de Tucumán", en Homenaje a don Bernabé Aráoz; Institución del 10 de Septiembre de cada año como “Día del Heroísmo Tucumano"; incorporación al Calendario Escolar, y solicitud al Congreso de la Nación su declaración como Prócer Nacional,</a> 3243.</p>
   
-  <p>-Ley n° 6253 (Ley de Medio Ambiente). Modificación (Sanciones y Multas), 3737, 3740.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink10.html#debate3737">-Ley n° 6253 (Ley de Medio Ambiente). Modificación (Sanciones y Multas),</a> 3737.</p>
+
+  <p><a href="/periodo115/asuntoslink/asuntoslink10.html#ley7-1">-Ley n° 6253 (Ley de Medio Ambiente). Modificación (Sanciones y Multas), (inserción de fundamentos),</a> 3740.</p>
   
-  <p>-Lapacho Rosado. Declaración como “Árbol Oficial de la Provincia de Tucumán" (6 de Setiembre de cada año), 3747.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink10.html#debate3747">-Lapacho Rosado. Declaración como “Árbol Oficial de la Provincia de Tucumán" (6 de Setiembre de cada año),</a> 3747.</p>
   
-  <p>-Ley n° 9188 (Adhesión de la Provincia al Artículo n° 34 de la Ley Nacional n° 23737: Tenencia y Tráfico de Estupefacientes) y su modificatoria n° 9212. Modificación (Entrada en Vigencia el 15/04/2021), 3781.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink10.html#debate3781">-Ley n° 9188 (Adhesión de la Provincia al Artículo n° 34 de la Ley Nacional n° 23737: Tenencia y Tráfico de Estupefacientes) y su modificatoria n° 9212. Modificación (Entrada en Vigencia el 15/04/2021),</a> 3781.</p>
   
-  <p>-Firma Medicina Integral S.R.L. Eximición por dos años y seis meses el pago del Impuesto sobre Ingresos Brutos, con cargo a inversión y creación de puestos de trabajo, 3819.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink10.html#debate3819">-Firma Medicina Integral S.R.L. Eximición por dos años y seis meses el pago del Impuesto sobre Ingresos Brutos, con cargo a inversión y creación de puestos de trabajo,</a> 3819.</p>
   
-  <p>-Predio del Chalet en el Ingenio Bella Vista ubicado en la Localidad de Bella Vista, Padrón nº 75.652 (Leales). Declaración de utilidad pública y sujeto a expropiación para la creación del “Museo y Centro Cultural Manuel García Fernández"; Declaración de “Sitio Histórico Provincial", y creación en esa Ciudad de una patrulla motorizada de la Policía de la Provincia. Tratamiento conjunto, 4181.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink11.html#debate4181">-Predio del Chalet en el Ingenio Bella Vista ubicado en la Localidad de Bella Vista, Padrón nº 75.652 (Leales). Declaración de utilidad pública y sujeto a expropiación para la creación del “Museo y Centro Cultural Manuel García Fernández"; Declaración de “Sitio Histórico Provincial", y creación en esa Ciudad de una patrulla motorizada de la Policía de la Provincia. Tratamiento conjunto,</a> 4181.</p>
   
   
-  <p>-Ley Nacional n° 27541 (De Seguridad Social y Reactivación Productiva en el Marco de la Emergencia Pública) y sus modificatorias. Adhesión de la Provincia a su Artículo 5° (Invitación a las provincias a adherir a las políticas de mantenimiento de los cuadros tarifarios y renegociación o revisión de carácter extraordinario), 4227.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink11.html#debate4227">-Ley Nacional n° 27541 (De Seguridad Social y Reactivación Productiva en el Marco de la Emergencia Pública) y sus modificatorias. Adhesión de la Provincia a su Artículo 5° (Invitación a las provincias a adherir a las políticas de mantenimiento de los cuadros tarifarios y renegociación o revisión de carácter extraordinario),</a> 4227.</p>
   
-  <p>-Plan Provincial de Conectividad para Establecimientos Públicos Educativos, de Salud e Instituciones de Seguridad. Creación, 4287.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink11.html#debate4287">-Plan Provincial de Conectividad para Establecimientos Públicos Educativos, de Salud e Instituciones de Seguridad. Creación,</a> 4287.</p>
   
-  <p>-Ley n° 8980 (Cesión de Inmuebles al Estado Nacional para la Creación del Parque Nacional Aconquija) y su modificatoria. Modificación (Cesión de Inmuebles, Padrones nros. 60.061, 60.477, 62.806, 164.376, 167.539, 63.605, 64.135, 64.387 y 66.384), 4293.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink11.html#debate4293">-Ley n° 8980 (Cesión de Inmuebles al Estado Nacional para la Creación del Parque Nacional Aconquija) y su modificatoria. Modificación (Cesión de Inmuebles, Padrones nros. 60.061, 60.477, 62.806, 164.376, 167.539, 63.605, 64.135, 64.387 y 66.384),</a> 4293.</p>
   
-  <p>-Ley n° 8976 (Adhesión de la Provincia a la Ley Nacional n° 27159 –Sistema de Protección Integral ante la Muerte Súbita; Obligación de Instalación de Desfibrilador Externo Automático –DEA- en Lugares Públicos de Concurrencia Masiva). Modificación (Inclusión de Establecimientos Educativos y Deportivos), 4723.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink12.html#debate4723">-Ley n° 8976 (Adhesión de la Provincia a la Ley Nacional n° 27159 –Sistema de Protección Integral ante la Muerte Súbita; Obligación de Instalación de Desfibrilador Externo Automático –DEA- en Lugares Públicos de Concurrencia Masiva). Modificación (Inclusión de Establecimientos Educativos y Deportivos),</a> 4723.</p>
   
-  <p>-Ley n° 6176 y sus modificatorias (Código Procesal Civil y Comercial). Modificación (Incorporación del Procedimiento Sumarísimo de Desalojo –“Desalojo Exprés"), 4778.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink12.html#debate4781">-Ley n° 6176 y sus modificatorias (Código Procesal Civil y Comercial). Modificación (Incorporación del Procedimiento Sumarísimo de Desalojo –“Desalojo Exprés"),</a> 4781.</p>
   
-  <p>-Ley n° 6238 (Orgánica del Poder Judicial). Modificación (Jurisdicción Territorial de los Centros Judiciales de Concepción y Monteros, 4840.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink12.html#debate4840">-Ley n° 6238 (Orgánica del Poder Judicial). Modificación (Jurisdicción Territorial de los Centros Judiciales de Concepción y Monteros,</a> 4840.</p>
+    
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#debate5222">-Ley n° 8933 (Código Procesal Penal). Modificación de los artículos 235, 236 y 237,</a> 5222.</p>
   
-  <p>-Inmueble ubicado en San Isidro de Lules (Lules) (Padrón 175.600). Declaración de utilidad pública y sujeto a expropiación para ser destinado a la regularización dominial, erradicación construcción y/o consolidación de asentamientos emergentes; y para la construcción de una terminal de ómnibus, 4842.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#debate5264">-Subsidio Mensual no Contributivo para Derechohabientes del Personal de la Salud y de Seguridad Fallecidos por Covid-19 Prestando Servicio. Establecimiento; y declaración de Interés Legislativo la Ley Nacional nº 27549 (Beneficios Especiales para el Personal de la Salud, Fuerzas Armadas, de Seguridad y otros ante la Pandemia de Covid-19),</a> 5264.</p>
+    
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#debate5334">-Ley nº 6210 (Bases para la Coordinación, Planeamiento, Regulación y Control del Transporte Público de Pasajeros). Modificación de los artículos 20, 22 y 23; y regulación del servicio de transporte privado a través de plataformas electrónicas. Tratamiento conjunto,</a> 5334.</p>
   
-  <p>-Ley n° 8933 (Código Procesal Penal). Modificación de los artículos 235, 236 y 237, 5222.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#debate5357">-Promoción del Derecho de la Mujer a la salud menstrual. Declaración de interés provincial,</a> 5357.</p>
   
-  <p>-Subsidio Mensual no Contributivo para Derechohabientes del Personal de la Salud y de Seguridad Fallecidos por Covid-19 Prestando Servicio. Establecimiento; y declaración de Interés Legislativo la Ley Nacional nº 27549 (Beneficios Especiales para el Personal de la Salud, Fuerzas Armadas, de Seguridad y otros ante la Pandemia de Covid-19), 5264.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#debate5389">-Personas Transexuales, Travestis, Transgénero y/o Autopercibidas con Género no Binario. Garantía real de igualdad de oportunidades y de trato, y otorgamiento de microcréditos para el financiamiento de microemprendimientos productivos,  5389.</p>
   
-  <p>-Tratado Parcial Interprovincial de Creación de la Región del Norte Grande Argentino (NOA-NEA) suscripto entre las Provincias de Catamarca, Corrientes, Chaco, Formosa, Jujuy, Misiones, Tucumán, Salta y Santiago del Estero. Aprobación, 5317.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink14.html#debate5664">-Presupuesto General de Gastos y Cálculo de Recursos de la Administración Pública Provincial, Ejercicio 2021. Sanción,</a> 5664.</p>
   
-  <p>-Ley nº 6210 (Bases para la Coordinación, Planeamiento, Regulación y Control del Transporte Público de Pasajeros). Modificación de los artículos 20, 22 y 23; y regulación del servicio de transporte privado a través de plataformas electrónicas. Tratamiento conjunto, 5334.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink14.html#debate5749">-Profesión y Ejercicio de Guardavidas en la Provincia. Regulación,</a> 5749.</p>
   
-  <p>-Promoción del Derecho de la Mujer a la salud menstrual. Declaración de interés provincial, 5357.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink14.html#debate5760">-Ley Nacional nº 27592 (Formación Integral en Ambiente, con Perspectiva de Desarrollo Sostenible y en Cambio Climático para Personas que se desempeñan en la Función Pública –“Ley Yolanda"-). Adhesión de la Provincia,</a> 5760.</p>
   
-  <p>-Personas Transexuales, Travestis, Transgénero y/o Autopercibidas con Género no Binario. Garantía real de igualdad de oportunidades y de trato, y otorgamiento de microcréditos para el financiamiento de microemprendimientos productivos,  5389.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink15.html#debate5890">-Señor Presidente de la República Argentina, doctor Alberto Fernández. Solicitud de arbitrar con carácter de urgente la prórroga Automática de la Ley nº 26093 (Régimen de Regulación y Promoción para la Producción y uso Sustentables de Biocombustibles) manteniendo el porcentaje de mezcla; su inclusión en sesiones extraordinarias para su tratamiento en la H. Cámara de Diputados de la Nación, e invitación a las provincias involucradas a legislar en igual sentido,</a> 5890.</p>
   
-  <p>-Presupuesto General de Gastos y Cálculo de Recursos de la Administración Pública Provincial, Ejercicio 2021. Sanción, 5664.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink16.html#debate6085">-Equipo Interdisciplinario de Prevención de Usurpaciones. Creación,</a> 6085.</p>
   
-  <p>-Profesión y Ejercicio de Guardavidas en la Provincia. Regulación, 5749.</p>
-  
-  <p>-Ley Nacional nº 27592 (Formación Integral en Ambiente, con Perspectiva de Desarrollo Sostenible y en Cambio Climático para Personas que se desempeñan en la Función Pública –“Ley Yolanda"-). Adhesión de la Provincia, 5760.</p>
-  
-  <p>-Señor Presidente de la República Argentina, doctor Alberto Fernández. Solicitud de arbitrar con carácter de urgente la prórroga Automática de la Ley nº 26093 (Régimen de Regulación y Promoción para la Producción y uso Sustentables de Biocombustibles) manteniendo el porcentaje de mezcla; su inclusión en sesiones extraordinarias para su tratamiento en la H. Cámara de Diputados de la Nación, e invitación a las provincias involucradas a legislar en igual sentido, 5890.</p>
-  
-  <p>-Equipo Interdisciplinario de Prevención de Usurpaciones. Creación, 6085.</p>
-  
-  <p>-Ley Nacional n° 27592 (“Ley Yolanda": Formación Integral en Ambiente con Perspectiva de Desarrollo Sostenible y con Énfasis en Cambio Climático en el Ámbito de la Administración Pública). Adhesión de la Provincia, 6122.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink16.html#debate6122">-Ley Nacional n° 27592 (“Ley Yolanda": Formación Integral en Ambiente con Perspectiva de Desarrollo Sostenible y con Énfasis en Cambio Climático en el Ámbito de la Administración Pública). Adhesión de la Provincia,</a> 6122.</p>
      
   <h4 class="mt-5" id="scrollspyHeading2">Designación:</h4>
   
@@ -225,6 +234,7 @@
   <h4 class="mt-5" id="scrollspyHeading3">Dictamen de comisión informado:</h4>
   
   <p><a href="/periodo115/asuntoslink/asuntoslink14.html#ley30">-Servicio de Guías de Turismo en la Provincia. Regulación; y creación del Registro de Prestadores de Guías de Turismo,</a> 5777.</p>
+
   
   <h4 class="mt-5" id="scrollspyHeading4">Dictamen de comisión suscripto:</h4>
   
@@ -232,132 +242,133 @@
   
   <p><a href="/periodo115/asuntoslink/asuntoslink4.html#ley21">-Fracción de inmueble ubicado en Aguilares, Padrón n° 166.388 (Río Chico). Declaración de utilidad pública y sujeta a expropiación para ser destinada a la utilización y funcionamiento del Cementerio Municipal de esa ciudad,</a> 1043.</p>
   
-  <p><a href="/periodo115/asuntoslink/asuntoslink4.html#covid25">-Listado de enfermedades profesionales. Solicitud al Poder Ejecutivo Nacional incorpore la afección Covid19 para la cobertura de los trabajadores exceptuados del aislamiento social obligatorio vigente,</a> 1051.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink4.html#res25">-Listado de enfermedades profesionales. Solicitud al Poder Ejecutivo Nacional incorpore la afección Covid19 para la cobertura de los trabajadores exceptuados del aislamiento social obligatorio vigente,</a> 1051.</p>
   
-  <p><a href="/periodo115/asuntoslink/asuntoslink4.html#covid26">-“Plan estratégico para regular el uso de plasma de pacientes recuperados de covid19 con fines Terapéuticos". Beneplácito por su creación por parte del Ministerio de Salud de la Nación; y solicitud al Poder Ejecutivo Provincial la creación de un “Registro Provincial de dadores voluntarios de plasma de pacientes clínicamente recuperados de covid19",</a> 1053.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink4.html#res26">-“Plan estratégico para regular el uso de plasma de pacientes recuperados de covid19 con fines Terapéuticos". Beneplácito por su creación por parte del Ministerio de Salud de la Nación; y solicitud al Poder Ejecutivo Provincial la creación de un “Registro Provincial de dadores voluntarios de plasma de pacientes clínicamente recuperados de covid19",</a> 1053.</p>
   
-  <p><a href="/periodo115/asuntoslink/asuntoslink4.html#covid27">-Actividades y servicios declarados esenciales por el decreto de necesidad y urgencia n° 297/20 del Poder Ejecutivo Nacional y sus modificaciones. Solicitud de incorporación del ejercicio de la Abogacía, y exceptuar del cumplimiento del aislamiento social preventivo y obligatorio a abogados y procuradores de la provincia,</a> 1054.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink4.html#res27">-Actividades y servicios declarados esenciales por el decreto de necesidad y urgencia n° 297/20 del Poder Ejecutivo Nacional y sus modificaciones. Solicitud de incorporación del ejercicio de la Abogacía, y exceptuar del cumplimiento del aislamiento social preventivo y obligatorio a abogados y procuradores de la provincia,</a> 1054.</p>
   
-  <p>-Odontología. Solicitud al Poder Ejecutivo Nacional su declaración como profesión de riesgo de salud y alto riesgo de contagio de coronavirus (covid-19),</a> 1056.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink4.html#res28">-Odontología. Solicitud al Poder Ejecutivo Nacional su declaración como profesión de riesgo de salud y alto riesgo de contagio de coronavirus (covid-19),</a> 1056.</p>
   
-  <p>-Transporte automotor de cargas terrestre en los accesos a la Provincia. Solicitud al Poder Ejecutivo extreme los controles sanitarios, 1057.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink4.html#res29">-Transporte automotor de cargas terrestre en los accesos a la Provincia. Solicitud al Poder Ejecutivo extreme los controles sanitarios,</a> 1057.</p>
   
-  <p>-Honorarios de los Odontólogos matriculados en la Provincia. Regulación, 1422.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink5.html#ley19">-Honorarios de los Odontólogos matriculados en la Provincia. Regulación,</a> 1422.</p>
   
-  <p>-Ley Nacional n° 26522 (Servicios de Comunicación Audiovisual). Solicitud al Poder Ejecutivo el cumplimiento del artículo 66 y concordantes; y el subtitulado de toda propaganda oficial relacionada con la prevención del Covid-19 y dengue, para la correcta recepción por parte de personas con discapacidades sensoriales, 1425.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink5.html#res20">-Ley Nacional n° 26522 (Servicios de Comunicación Audiovisual). Solicitud al Poder Ejecutivo el cumplimiento del artículo 66 y concordantes; y el subtitulado de toda propaganda oficial relacionada con la prevención del Covid-19 y dengue, para la correcta recepción por parte de personas con discapacidades sensoriales,</a> 1425.</p>
   
-  <p>-Inmueble ubicado en Cevil Pozo, padrón n° 572.897 (Cruz Alta). Declaración de utilidad pública y sujeto a expropiación para ser destinado a la ampliación del cementerio de esa ciudad, 1432.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink5.html#ley22">-Inmueble ubicado en Cevil Pozo, padrón n° 572.897 (Cruz Alta). Declaración de utilidad pública y sujeto a expropiación para ser destinado a la ampliación del cementerio de esa ciudad,</a> 1432.</p>
   
-  <p>-Inmueble detallado en la Ley n° 8649 (Declaración de utilidad pública y sujeto a expropiación un inmueble ubicado en Monte Caseros, padrón n° 95.007, destinado a la construcción de una planta de tratamiento de residuos urbanos y efluentes cloacales - Burruyacu). Declaración de utilidad pública y sujeto a expropiación; derogación  de su artículo 3°, y convalidación de todo lo actuado por Fiscalía de Estado, 1908.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink6.html#ley16">-Inmueble detallado en la Ley n° 8649 (Declaración de utilidad pública y sujeto a expropiación un inmueble ubicado en Monte Caseros, padrón n° 95.007, destinado a la construcción de una planta de tratamiento de residuos urbanos y efluentes cloacales - Burruyacu). Declaración de utilidad pública y sujeto a expropiación; derogación  de su artículo 3°, y convalidación de todo lo actuado por Fiscalía de Estado,</a> 1908.</p>
   
-  <p>-Inmueble ubicado en la comuna de Alto Verde y Los Guchea, padrón n° 57.276 (Chicligasta). Declaración de utilidad pública y sujeto a expropiación para ser destinado a obras de saneamiento, 1914.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink6.html#ley17">-Inmueble ubicado en la comuna de Alto Verde y Los Guchea, padrón n° 57.276 (Chicligasta). Declaración de utilidad pública y sujeto a expropiación para ser destinado a obras de saneamiento,</a> 1914.</p>
   
-  <p>-Cerro El Pelao, de El Mollar (Tafí del Valle).  Declaración de emergencia ambiental, ecológica, y zona de protección arqueológica por el término de un año; y derogación de la Ley n° 9224, 1958.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink6.html#ley22">-Cerro El Pelao, de El Mollar (Tafí del Valle).  Declaración de emergencia ambiental, ecológica, y zona de protección arqueológica por el término de un año; y derogación de la Ley n° 9224,</a> 1958.</p>
   
-  <p>-Destacamento de Caballería de la Policía de la Provincia en la ciudad de Concepción. Creación, 1962.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink6.html#res24">-Destacamento de Caballería de la Policía de la Provincia en la ciudad de Concepción. Creación,</a> 1962.</p>
   
-  <p>-Covid-19. Cierre de las fronteras de la Provincia por sesenta días corridos para un mayor control sanitario; y fijación de excepciones, 2346.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink7.html#ley11">-Covid-19. Cierre de las fronteras de la Provincia por sesenta días corridos para un mayor control sanitario; y fijación de excepciones,</a> 2346.</p>
   
-  <p>-Inmuebles ubicados en Bella Vista, padrones nros. 79.553, 286.562 y 286.560 (Leales). Transferencia en donación a la Municipalidad de Bella Vista para el funcionamiento de la Plaza Principal, Municipalidad, Casa de la Cultura, Juzgado de Paz y toda otra oficina vinculada con el servicio de Justicia, 2373.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink7.html#ley12">-Inmuebles ubicados en Bella Vista, padrones nros. 79.553, 286.562 y 286.560 (Leales). Transferencia en donación a la Municipalidad de Bella Vista para el funcionamiento de la Plaza Principal, Municipalidad, Casa de la Cultura, Juzgado de Paz y toda otra oficina vinculada con el servicio de Justicia,</a> 2373.</p>
   
-  <p>-Inmueble detallado en la Ley n° 8691 (Declaración de utilidad pública y Sujeto a expropiación un inmueble ubicado en Cevil Pozo - Padrón n° 773.975, Cruz Alta para la instalación de un Centro de Transferencia Multimodal de Cargas). Declaración de utilidad pública y sujeto a expropiación; y convalidación de todo lo actuado por Fiscalía de Estado, 2383.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink7.html#ley14">-Inmueble detallado en la Ley n° 8691 (Declaración de utilidad pública y Sujeto a expropiación un inmueble ubicado en Cevil Pozo - Padrón n° 773.975, Cruz Alta para la instalación de un Centro de Transferencia Multimodal de Cargas). Declaración de utilidad pública y sujeto a expropiación; y convalidación de todo lo actuado por Fiscalía de Estado,</a> 2383.</p>
   
-  <p>-Programa Provincial de Donación Voluntaria de  Plasma Sanguíneo de Pacientes Recuperados de Covid-19 con fines terapéuticos. Creación, 2393.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink7.html#ley15">-Programa Provincial de Donación Voluntaria de  Plasma Sanguíneo de Pacientes Recuperados de Covid-19 con fines terapéuticos. Creación,</a> 2393.</p>
   
-  <p>-Fracción de inmueble ubicado en Banda del Río Salí, Padrón n° 572.897 (Cruz Alta). Declaración de utilidad pública y sujeto a expropiación para la ampliación del Cementerio de Cevil Pozo, 2399.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink7.html#ley16">-Fracción de inmueble ubicado en Banda del Río Salí, Padrón n° 572.897 (Cruz Alta). Declaración de utilidad pública y sujeto a expropiación para la ampliación del Cementerio de Cevil Pozo,</a> 2399.</p>
   
-  <p>-“Programa Provincial de Colecta Externa y Móvil de Sangre". Creación, 2413.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink7.html#ley18">-“Programa Provincial de Colecta Externa y Móvil de Sangre". Creación,</a> 2413.</p>
   
-  <p>-Convenios de Cooperación y Reciprocidad con Organismos Turísticos del Noroeste Argentino para Planificar, Organizar y Desarrollar el Turismo. Celebración, 2418.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink7.html#res22">-Convenios de Cooperación y Reciprocidad con Organismos Turísticos del Noroeste Argentino para Planificar, Organizar y Desarrollar el Turismo. Celebración,</a> 2418.</p>
   
-  <p>-Fracción de inmueble ubicado en la Comuna de Acheral, Padrón N° 245.485 (Monteros). Declaración de utilidad pública y sujeto a expropiación para la construcción de un salón de usos múltiples, museo histórico y viviendas, 2696.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink8.html#ley9">-Fracción de inmueble ubicado en la Comuna de Acheral, Padrón N° 245.485 (Monteros). Declaración de utilidad pública y sujeto a expropiación para la construcción de un salón de usos múltiples, museo histórico y viviendas,</a> 2696.</p>
   
-  <p>-Ratificación del Decreto de Necesidad y Urgencia N° 13/1 (Prórroga hasta el 17/07/2020 de los alcances del DNU del PEN N° 520/20 – Aislamiento Social Preventivo y Obligatorio). Y convalidación de todo lo actuado por el Poder Ejecutivo, 2701.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink8.html#ley10">-Ratificación del Decreto de Necesidad y Urgencia N° 13/1 (Prórroga hasta el 17/07/2020 de los alcances del DNU del PEN N° 520/20 – Aislamiento Social Preventivo y Obligatorio). Y convalidación de todo lo actuado por el Poder Ejecutivo,</a> 2701.</p>
   
-  <p>-Línea Gratuita Estatal de Número Corto para la Recepción de Denuncias de Hechos Delictivos que Involucren a Personal Policial y del Servicio Penitenciario Provincial. Creación en el ámbito del Ministerio Público Fiscal, 2716.</p>
-  
-  <p>-Línea Gratuita Estatal de Número Corto para la Recepción de Denuncias de Hechos Delictivos que Involucren a Personal Policial y del Servicio Penitenciario Provincial. Creación en el ámbito del Ministerio Público Fiscal, 2716.</p>
-  
-  <p>-Ley n° 7844 (Mediación Obligatoria Previa a todo Juicio). Modificación de su artículo 10 (Preferente despacho a los procesos de Mediación por Alimentos), 2724.</p>
-  
-  <p>-Inmuebles ubicados en la Comuna de Los Sosa, Padrones nros. 45.623, 140.754, 140.749, 142.434 Y 142.963 (Monteros). Declaración de utilidad pública y sujetos a expropiación para la regularización, erradicación, construcción y/o consolidación de asentamientos o barrios de emergencia, 3121.</p>
-  
-  <p>-Inmueble ubicado en San Pedro de Colalao, Padrón Nº 99.530 (Trancas). Declaración de utilidad pública y sujeto a expropiación para la construcción de una Terminal de Ómnibus, 3125.</p>
-  
-  <p>-Declaración a La Encrucijada (Burruyacu) como “Paraje Histórico de la Provincia de Tucumán", en Homenaje a don Bernabé Aráoz; Institución del 10 de Septiembre de cada año como “Día del Heroísmo Tucumano"; incorporación al Calendario Escolar, y solicitud al Congreso de la Nación su declaración como Prócer Nacional, 3236.</p>
-  
-  <p>-Videocámaras en espacios públicos o privados con acceso al público. Regulación de su instalación, tratamiento de sus imágenes y sonido, 3249.</p>
-  
-  <p>-Destacamento de Gendarmería Nacional. Solicitud al Poder Ejecutivo adopte las medidas pertinentes para su instalación en calle Rivadavia N° 485, de la Ciudad de Concepción (Chicligasta), 3258.</p>
-  
-  <p>-Uso y Comercialización de Material Pirotécnico en la Provincia. Regulación, 3761.</p>
-  
-  <p>-Ley n° 9188 (Adhesión de la Provincia al Artículo n° 34 de la Ley Nacional n° 23737: Tenencia y Tráfico de Estupefacientes) y su modificatoria n° 9212. Modificación (Entrada en Vigencia el 15/04/2021), 3778.</p>
-  
-  <p>-Ministerio Pupilar y de la Defensa. Habilitación en el Centro Judicial Monteros de una oficina para víctimas de Violencia contra la Mujer; y solicitud de contemplar la habilitación de oficinas respecto a esta temática en todas las ciudades de la Provincia, en coordinación con los municipios respectivos, 3881.</p>
-  
-  <p>-Quema de cañaverales y demás delitos ambientales que afectan la Salud Pública. Solicitud al Ministerio Público Fiscal realice las investigaciones penales correspondientes, 3883.</p>
-  
-  <p>-Centros Educativos terapéuticos. Solicitud al Poder Ejecutivo autorice su reapertura, 4089.</p>
-  
-  <p>-Predio del Chalet en el Ingenio Bella Vista ubicado en la Localidad de Bella Vista, Padrón nº 75.652 (Leales). Declaración de utilidad pública y sujeto a expropiación para la creación del “Museo y Centro Cultural Manuel García Fernández"; Declaración de “Sitio Histórico Provincial", y creación en esa Ciudad de una patrulla motorizada de la Policía de la Provincia. Tratamiento conjunto, 4179, 4189.</p>
-  
-  <p>-Inmueble ubicado en la Ciudad de Banda del Río Salí (Padrón Nº 674.720). Declaración de utilidad pública y sujeto a expropiación para ser destinado a la construcción de una Alcaidía y dependencias policiales del Gobierno de la Provincia, 4273.</p>
-  
-  <p>-Pandemia Covid-19. Solicitud al Poder Ejecutivo que una vez concluidos los operativos para su control, se continúe con el despliegue policial, logístico y de Fuerzas de Seguridad con análoga dimensión al desarrollado durante la Emergencia Sanitaria, 4307.</p>
-  
-  <p>-Habitantes de localidades y parajes del Departamento Burruyacu. Solicitud al Poder Ejecutivo arbitre los medios para dotar de personal y equipamiento necesario para garantizar su seguridad, 4308.</p>
-  
-  <p>-Sistema Provincial de Búsqueda de Personas Desaparecidas y Extraviadas, denominado “Sistema de Búsqueda Abigail". Creación, 4807.</p>
-  
-  <p>-Ley n° 6238 (Orgánica del Poder Judicial). Modificación (Jurisdicción Territorial de los Centros 
-  Judiciales de Concepción y Monteros, 4840.</p>
-  
-  <p>-XXI Encuentro Nacional de Fofetra (Foro Federal de Institutos y Comisiones de Derechos del Trabajo de Colegios de Abogados y Procuradores de la República Argentina) a realizarse los días 24 y 25 de Septiembre. Declaración de Interés Legislativo, 4847.</p>
-  
-  <p>-Derecho de Propiedad. Solicitud al Poder Ejecutivo, al Poder Judicial y al Ministerio Público Fiscal la Observancia de la Normativa que lo resguarda, a fin de evitar usurpaciones, 4848.</p>
-  
-  <p>-Ley n° 8933 (Código Procesal Penal). Modificación (Aprehensión, medidas de coerción, cauciones, prisión preventiva y condena condicional), 5182.</p>
-  
-  <p>-Ley N° 6238 (Orgánica del Poder Judicial). Modificación de su artículo 83 (Creación de una Fiscalía y de una Defensoría en lo Penal para la Niñez y la Adolescencia de la Primera Nominación en el Centro Judicial Capital), 5218.</p>
-  
-  <p>-Equipo Interdisciplinario de Intervención Temprana a fin de evitar Usurpaciones a propiedades privadas. Creación, 5245.</p>
-  
-  <p>-Policías Municipales de Prevención Local (Creadas Por Ley n° 9144). Autorización al uso de armas electrónicas de control, 5274.</p>
-  
-  <p>-Línea telefónica gratuita y plataforma digital para recepcionar denuncias en contra del Personal Policial por conducta inapropiada. Creación, 5304.</p>
-  
-  <p>-Ley n° 8967 (Creación de Juzgados Especializados en Violencia Contra la Mujer). Modificación (Reemplazo: “Dos Fiscalías" por “Tres Fiscalías"); y modificación del artículo 83, inciso 22) (“Catorce Fiscalías de Instrucción en lo Penal") de la Ley n° 6238 (Orgánica del Poder Judicial), 5313.</p>
-  
-  <p>-Ley nº 6210 (Bases para la Coordinación, Planeamiento, Regulación y Control del Transporte Público de Pasajeros). Modificación de los artículos 20, 22 y 23; y regulación del servicio de transporte privado a través de plataformas electrónicas. Tratamiento conjunto, 5328.</p>
-  
-  <p>-Ley nº 7189 (Donación a la Municipalidad de la Capital una fracción de un inmueble para la apertura de calle España al 500). Modificación del artículo, 5368.</p>
-  
-  <p>-Encíclica “Laudato Sí", del Sumo Pontífice Francisco. Declaración de Interés Legislativo, 5413.</p>
-  
-  <p>-Foro Internacional “Gobernanza Local en el Manejo de Incendios Forestales". Declaración de Interés Legislativo, 5414.</p>
-  
-  <p>-Taller de Prevención de Incendios Forestales en Ecosistemas Naturales. Declaración de Interés Legislativo, 5415.</p>
-  
-  <p>-Ley nº 8847  (Creación de Sedes Administrativas en Municipalidades por parte de Sadaic, Aadi Capif, Argentores, Sagai, Dac, Audav y demás entidades privadas con Regímenes Especiales para Cumplimentar la Normativa en Materia de Propiedad Intelectual) y sus modificatorias. Prórroga hasta el 31/12/2021 la vigencia de su artículo 6º, y ampliación del alcance de la Suspensión de Mediación Obligatoria y de cualquier medida judicial para el cobro de aranceles por derechos intelectuales, 5733.</p>
-  
-  <p>-Inmueble ubicado en  “Finca Tulio", a la vera de la Ruta Provincial Nº 301,  Padrón nº 376.399 (Famaillá). Declaración de utilidad pública y sujeto a expropiación para la ampliación del Parque Industrial, 5741.</p>
-  
-  <p>-Profesión y Ejercicio de Guardavidas en la Provincia. Regulación, 5743.</p>
-  
-  <p>-“2021 - Año del Bicentenario de la Industria Azucarera". Inclusión de dicha leyenda en la Papelería Oficial y Creación de una Comisión Especial Conmemorativa de dicho evento, 5799.</p>
-  
-  <p>-Servicio de Guías de Turismo en la Provincia. Regulación; y creación del Registro de Prestadores de Guías de Turismo, 5777.</p>
-  
-  <p>-“Programa Tumiñiko Del Conglomerado Turístico Cultural Sustentable". Declaración de Interés Legislativo, 5803.</p>
-  
-  <p>-Ley n° 9275 (Declaración de utilidad pública y sujeto a expropiación un Inmueble ubicado en Cevil Pozo –Cruz Alta- destinado a la instalación de un Centro de Transferencia Multimodal de Cargas). Modificación (Prescindencia del Procedimiento Administrativo de Avenimiento), 6061.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink8.html#ley13">-Línea Gratuita Estatal de Número Corto para la Recepción de Denuncias de Hechos Delictivos que Involucren a Personal Policial y del Servicio Penitenciario Provincial. Creación en el ámbito del Ministerio Público Fiscal,</a> 2716.</p>
    
-  <p>-Ley n° 9268 (Declaración de utilidad pública y sujeto a expropiación un inmueble ubicado en Monte Caseros –Burruyacu- Destinado a la construcción de una Planta de tratamiento de Residuos Urbanos y Efluentes Cloacales). Modificación (Prescindencia del Procedimiento Administrativo de Avenimiento), 6062.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink8.html#ley14">-Ley n° 7844 (Mediación Obligatoria Previa a todo Juicio). Modificación de su artículo 10 (Preferente despacho a los procesos de Mediación por Alimentos),</a> 2724.</p>
   
-  <p>-Equipo Interdisciplinario de Prevención de Usurpaciones. Creación, 6083.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink9.html#ley15">-Inmuebles ubicados en la Comuna de Los Sosa, Padrones nros. 45.623, 140.754, 140.749, 142.434 Y 142.963 (Monteros). Declaración de utilidad pública y sujetos a expropiación para la regularización, erradicación, construcción y/o consolidación de asentamientos o barrios de emergencia,</a> 3121.</p>
   
-  <p>-Dispositivos electrónicos duales como medida de prevención, monitoreo, rastreo y localización de agresores y víctimas. Implementación en el ámbito de la Provincia, 6126.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink9.html#ley16">-Inmueble ubicado en San Pedro de Colalao, Padrón Nº 99.530 (Trancas). Declaración de utilidad pública y sujeto a expropiación para la construcción de una Terminal de Ómnibus,</a> 3125.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink9.html#ley23">-Declaración a La Encrucijada (Burruyacu) como “Paraje Histórico de la Provincia de Tucumán", en Homenaje a don Bernabé Aráoz; Institución del 10 de Septiembre de cada año como “Día del Heroísmo Tucumano"; incorporación al Calendario Escolar, y solicitud al Congreso de la Nación su declaración como Prócer Nacional,</a> 3236.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink9.html#ley24">-Videocámaras en espacios públicos o privados con acceso al público. Regulación de su instalación, tratamiento de sus imágenes y sonido,</a> 3249.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink9.html#res25">-Destacamento de Gendarmería Nacional. Solicitud al Poder Ejecutivo adopte las medidas pertinentes para su instalación en calle Rivadavia N° 485, de la Ciudad de Concepción (Chicligasta),</a> 3258.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink10.html#ley11">-Uso y Comercialización de Material Pirotécnico en la Provincia. Regulación,</a> 3761.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink10.html#ley12">-Ley n° 9188 (Adhesión de la Provincia al Artículo n° 34 de la Ley Nacional n° 23737: Tenencia y Tráfico de Estupefacientes) y su modificatoria n° 9212. Modificación (Entrada en Vigencia el 15/04/2021),</a> 3778.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink10.html#res35">-Ministerio Pupilar y de la Defensa. Habilitación en el Centro Judicial Monteros de una oficina para víctimas de Violencia contra la Mujer; y solicitud de contemplar la habilitación de oficinas respecto a esta temática en todas las ciudades de la Provincia, en coordinación con los municipios respectivos,</a> 3881.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink10.html#res36">-Quema de cañaverales y demás delitos ambientales que afectan la Salud Pública. Solicitud al Ministerio Público Fiscal realice las investigaciones penales correspondientes,</a> 3883.</p>
+  
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink11.html#ley15">-Predio del Chalet en el Ingenio Bella Vista ubicado en la Localidad de Bella Vista, Padrón nº 75.652 (Leales). Declaración de utilidad pública y sujeto a expropiación para la creación del “Museo y Centro Cultural Manuel García Fernández"; Declaración de “Sitio Histórico Provincial", y creación en esa Ciudad de una patrulla motorizada de la Policía de la Provincia. Tratamiento conjunto, 4179,</a> 4189.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink11.html#ley22">-Inmueble ubicado en la Ciudad de Banda del Río Salí (Padrón Nº 674.720). Declaración de utilidad pública y sujeto a expropiación para ser destinado a la construcción de una Alcaidía y dependencias policiales del Gobierno de la Provincia,</a> 4273.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink11.html#res30">-Pandemia Covid-19. Solicitud al Poder Ejecutivo que una vez concluidos los operativos para su control, se continúe con el despliegue policial, logístico y de Fuerzas de Seguridad con análoga dimensión al desarrollado durante la Emergencia Sanitaria,</a> 4307.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink11.html#res31">-Habitantes de localidades y parajes del Departamento Burruyacu. Solicitud al Poder Ejecutivo arbitre los medios para dotar de personal y equipamiento necesario para garantizar su seguridad,</a> 4308.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink12.html#ley20">-Sistema Provincial de Búsqueda de Personas Desaparecidas y Extraviadas, denominado “Sistema de Búsqueda Abigail". Creación,</a> 4807.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink12.html#ley21">-Ley n° 6238 (Orgánica del Poder Judicial). Modificación (Jurisdicción Territorial de los Centros Judiciales de Concepción y Monteros,</a> 4840.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink12.html#ley22">-Inmueble ubicado en San Isidro de Lules (Lules) (Padrón 175.600). Declaración de utilidad pública y sujeto a expropiación para ser destinado a la regularización dominial, erradicación construcción y/o consolidación de asentamientos emergentes; y para la construcción de una terminal de ómnibus,</a> 4842.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink12.html#dec24">-XXI Encuentro Nacional de Fofetra (Foro Federal de Institutos y Comisiones de Derechos del Trabajo de Colegios de Abogados y Procuradores de la República Argentina) a realizarse los días 24 y 25 de Septiembre. Declaración de Interés Legislativo,</a> 4847.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink12.html#res25">-Derecho de Propiedad. Solicitud al Poder Ejecutivo, al Poder Judicial y al Ministerio Público Fiscal la Observancia de la Normativa que lo resguarda, a fin de evitar usurpaciones,</a> 4848.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#ley8">-Ley n° 8933 (Código Procesal Penal). Modificación (Aprehensión, medidas de coerción, cauciones, prisión preventiva y condena condicional),</a> 5182.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#ley9">-Ley N° 6238 (Orgánica del Poder Judicial). Modificación de su artículo 83 (Creación de una Fiscalía y de una Defensoría en lo Penal para la Niñez y la Adolescencia de la Primera Nominación en el Centro Judicial Capital),</a> 5218.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#ley21">-Equipo Interdisciplinario de Intervención Temprana a fin de evitar Usurpaciones a propiedades privadas. Creación,</a> 5245.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#ley25">-Policías Municipales de Prevención Local (Creadas Por Ley n° 9144). Autorización al uso de armas electrónicas de control,</a> 5274.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#ley26">-Línea telefónica gratuita y plataforma digital para recepcionar denuncias en contra del Personal Policial por conducta inapropiada. Creación,</a> 5304.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#ley27">-Ley n° 8967 (Creación de Juzgados Especializados en Violencia Contra la Mujer). Modificación (Reemplazo: “Dos Fiscalías" por “Tres Fiscalías"); y modificación del artículo 83, inciso 22) (“Catorce Fiscalías de Instrucción en lo Penal") de la Ley n° 6238 (Orgánica del Poder Judicial),</a> 5313.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#ley28">-Tratado Parcial Interprovincial de Creación de la Región del Norte Grande Argentino (NOA-NEA) suscripto entre las Provincias de Catamarca, Corrientes, Chaco, Formosa, Jujuy, Misiones, Tucumán, Salta y Santiago del Estero. Aprobación,</a> 5317.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#ley32">-Ley nº 6210 (Bases para la Coordinación, Planeamiento, Regulación y Control del Transporte Público de Pasajeros). Modificación de los artículos 20, 22 y 23; y regulación del servicio de transporte privado a través de plataformas electrónicas. Tratamiento conjunto,</a> 5328.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#ley34">-Ley nº 7189 (Donación a la Municipalidad de la Capital una fracción de un inmueble para la apertura de calle España al 500). Modificación del artículo,</a> 5368.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#res38">-Encíclica “Laudato Sí", del Sumo Pontífice Francisco. Declaración de Interés Legislativo,</a> 5413.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#res39">-Foro Internacional “Gobernanza Local en el Manejo de Incendios Forestales". Declaración de Interés Legislativo,</a> 5414.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink13.html#res40">-Taller de Prevención de Incendios Forestales en Ecosistemas Naturales. Declaración de Interés Legislativo,</a> 5415.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink14.html#ley21">-Ley nº 8847  (Creación de Sedes Administrativas en Municipalidades por parte de Sadaic, Aadi Capif, Argentores, Sagai, Dac, Audav y demás entidades privadas con Regímenes Especiales para Cumplimentar la Normativa en Materia de Propiedad Intelectual) y sus modificatorias. Prórroga hasta el 31/12/2021 la vigencia de su artículo 6º, y ampliación del alcance de la Suspensión de Mediación Obligatoria y de cualquier medida judicial para el cobro de aranceles por derechos intelectuales,</a> 5733.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink14.html#ley25">-Inmueble ubicado en  “Finca Tulio", a la vera de la Ruta Provincial Nº 301,  Padrón nº 376.399 (Famaillá). Declaración de utilidad pública y sujeto a expropiación para la ampliación del Parque Industrial,</a> 5741.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink14.html#ley27">-Profesión y Ejercicio de Guardavidas en la Provincia. Regulación,</a> 5743.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink14.html#ley30">-Servicio de Guías de Turismo en la Provincia. Regulación; y creación del Registro de Prestadores de Guías de Turismo,</a> 5777.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink14.html#ley36">-“2021 - Año del Bicentenario de la Industria Azucarera". Inclusión de dicha leyenda en la Papelería Oficial y Creación de una Comisión Especial Conmemorativa de dicho evento,</a> 5799.</p>
+  
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink14.html#res38">-“Programa Tumiñiko Del Conglomerado Turístico Cultural Sustentable". Declaración de Interés Legislativo,</a> 5803.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink16.html#ley7-3">-Ley n° 9275 (Declaración de utilidad pública y sujeto a expropiación un Inmueble ubicado en Cevil Pozo –Cruz Alta- destinado a la instalación de un Centro de Transferencia Multimodal de Cargas). Modificación (Prescindencia del Procedimiento Administrativo de Avenimiento),</a> 6061.</p>
+   
+  <p><a href="/periodo115/asuntoslink/asuntoslink16.html#ley7-5">-Ley n° 9268 (Declaración de utilidad pública y sujeto a expropiación un inmueble ubicado en Monte Caseros –Burruyacu- Destinado a la construcción de una Planta de tratamiento de Residuos Urbanos y Efluentes Cloacales). Modificación (Prescindencia del Procedimiento Administrativo de Avenimiento),</a> 6062.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink16.html#ley12">-Equipo Interdisciplinario de Prevención de Usurpaciones. Creación,</a> 6083.</p>
+  
+  <p><a href="/periodo115/asuntoslink/asuntoslink16.html#ley15">-Dispositivos electrónicos duales como medida de prevención, monitoreo, rastreo y localización de agresores y víctimas. Implementación en el ámbito de la Provincia,</a> 6126.</p>
   
   <h4 class="mt-5" id="scrollspyHeading5">Homenaje:</h4>
   
@@ -367,7 +378,7 @@
   
   <p><a href="/periodo115/asuntoslink/asuntoslink10.html#home6-1">-Al Doctor Ricardo Balbín, al cumplirse 39 años de su fallecimiento,</a> 3716.</p>
   
-  <p><a href="/periodo115/asuntoslink/asuntoslink11.html#home7-1">-Al Primer Obispo de la Provincia de Tucumán, José Agustín Molina; A Nicolás Avellaneda, al cumplirse el próximo 3 de octubre un nuevo aniversario de su natalicio; y A la repatriación de los restos del General Juan Manuel de Rosas,</a> 4150, 4151.</p>
+  <p><a href="/periodo115/asuntoslink/asuntoslink11.html#home7-1">-Al Primer Obispo de la Provincia de Tucumán, José Agustín Molina; A Nicolás Avellaneda, al cumplirse el próximo 3 de octubre un nuevo aniversario de su natalicio; y A la repatriación de los restos del General Juan Manuel de Rosas,</a> 4150,</a> 4151.</p>
   
   <p><a href="/periodo115/asuntoslink/asuntoslink12.html#home10-5">-Al Personal de la Salud; y al Legislador Osvaldo Morelli,</a> 4707.</p>
   
@@ -398,13 +409,13 @@
   
   <p><a href="/periodo115/asuntoslink/asuntos12.html#dec4-4">-Expresiones del comediante “Dady" Brieva, sobre la marcha realizada el 12 de octubre 2020, en varios puntos del país. Repudio y rechazo,</a> 4664.</p>
   
-  <p>-Acciones llevadas a cabo en contra la Iglesia Católica, durante las manifestaciones realizadas en la Capital Chilena el pasado 18 de octubre 2020. Repudio y solidaridad con el pueblo chileno, 4667.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#dec4-7">-Acciones llevadas a cabo en contra la Iglesia Católica, durante las manifestaciones realizadas en la Capital Chilena el pasado 18 de octubre 2020. Repudio y solidaridad con el pueblo chileno,</a> 4667.</p>
   
-  <p>-Toma de tierras y usurpaciones de propiedad realizadas en diferentes puntos del país. Repudio, 4669.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#dec4-8">-Toma de tierras y usurpaciones de propiedad realizadas en diferentes puntos del país. Repudio,</a> 4669.</p>
   
-  <p>-Expresiones del Jefe del Bloque “Frente de Todos" del Honorable Senado de la Nación, José Mayans, en relación al tratamiento de la Ley de Interrupción Legal del Embarazo. Beneplácito, 5091.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#dec4-5">-Expresiones del Jefe del Bloque “Frente de Todos" del Honorable Senado de la Nación, José Mayans, en relación al tratamiento de la Ley de Interrupción Legal del Embarazo. Beneplácito,</a> 5091.</p>
   
-  <p>-Gendarmes que fallecieron en el siniestro ocurrido el 14 de diciembre de 2015 en Rosario de la Frontera, Provincia de Salta. Homenaje al cumplirse su 5º aniversario, 5617.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#dec4-11">-Gendarmes que fallecieron en el siniestro ocurrido el 14 de diciembre de 2015 en Rosario de la Frontera, Provincia de Salta. Homenaje al cumplirse su 5º aniversario,</a> 5617.</p>
   
   <h4 class="mt-5" id="scrollspyHeading8">Proyecto de ley:</h4>
   
@@ -453,169 +464,171 @@
   
   <p><a href="/periodo115/asuntoslink/asuntos2.html#ley2-25">-Red Provincial de Organizaciones No Gubernamentales para el cuidado del Ambiente y el Desarrollo Sustentable (RePrOADeS). Creación,</a> 194.</p>
   
-  <p>-Destacamento policial en la localidad de Yapachín (La Cocha), en el paso limítrofe entre las provincias de Tucumán y Catamarca. Creación, 207.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos2.html#ley2-31">-Destacamento policial en la localidad de Yapachín (La Cocha), en el paso limítrofe entre las provincias de Tucumán y Catamarca. Creación,</a> 207.</p>
   
-  <p>-Agencias de viajes y actividades complementarias de apoyo turístico. Eximición del pago del Impuesto a los Ingresos Brutos las prestaciones vinculadas al turismo receptivo, 208.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos2.html#ley2-32">-Agencias de viajes y actividades complementarias de apoyo turístico. Eximición del pago del Impuesto a los Ingresos Brutos las prestaciones vinculadas al turismo receptivo,</a> 208.</p>
   
-  <p>-Actividad bancaria. Declaración como “Servicio Público Esencial" durante la Emergencia Sanitaria dispuesta por el Poder Ejecutivo Nacional, 561.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos3.html#ley2-15">-Actividad bancaria. Declaración como “Servicio Público Esencial" durante la Emergencia Sanitaria dispuesta por el Poder Ejecutivo Nacional,</a> 561.</p>
   
-  <p>-Plan de Modernización del Sector Público Provincial. Creación, 788.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#ley2-4">-Plan de Modernización del Sector Público Provincial. Creación,</a> 788.</p>
   
-  <p>-Impuestos Automotor e Inmobiliario. Prórroga por 30 días del vencimiento de la cuota de abril de 2020,792.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#ley2-5">-Impuestos Automotor e Inmobiliario. Prórroga por 30 días del vencimiento de la cuota de abril de 2020, 792.</p>
   
-  <p>-Régimen Excepcional de Facilidades de Pago para la cancelación del Impuesto a los Ingresos Brutos de los meses de febrero y marzo de 2020. Establecimiento con carácter general y temporario, 795.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#ley2-6">-Régimen Excepcional de Facilidades de Pago para la cancelación del Impuesto a los Ingresos Brutos de los meses de febrero y marzo de 2020. Establecimiento con carácter general y temporario,</a> 795.</p>
   
-  <p>-Servicio de transporte público de pasajeros. Obligatoriedad de circular con la cantidad de pasajeros que no supere la capacidad de asientos disponibles y del uso de barbijo o cubreboca por parte de los usuarios, 804.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#ley2-10">-Servicio de transporte público de pasajeros. Obligatoriedad de circular con la cantidad de pasajeros que no supere la capacidad de asientos disponibles y del uso de barbijo o cubreboca por parte de los usuarios,</a> 804.</p>
   
-  <p>-Barbijo, tapaboca o máscara. Obligatoriedad de su uso para toda persona que circule por la vía pública, en establecimientos públicos y privados, en transporte público, en comercios, en instituciones bancarias y en lugares de concurrencia masiva, 806.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#ley2-11">-Barbijo, tapaboca o máscara. Obligatoriedad de su uso para toda persona que circule por la vía pública, en establecimientos públicos y privados, en transporte público, en comercios, en instituciones bancarias y en lugares de concurrencia masiva,</a> 806.</p>
   
-  <p>-Créditos concedidos a productores tabacaleros por la Caja Popular de Ahorros de la Provincia, en el marco del DNU nº 297/20PEN y DNU nº 1/12020 del Poder Ejecutivo Provincial, y ratificado por Ley nº 9226. Prórroga por 60 días y suspensión del descuento del crédito del Fondo Especial del Tabaco, 861.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#ley2-33">-Créditos concedidos a productores tabacaleros por la Caja Popular de Ahorros de la Provincia, en el marco del DNU nº 297/20PEN y DNU nº 1/12020 del Poder Ejecutivo Provincial, y ratificado por Ley nº 9226. Prórroga por 60 días y suspensión del descuento del crédito del Fondo Especial del Tabaco,</a> 861.</p>
   
-  <p>-Capacitación obligatoria en violencia contra la mujer, violencia familiar y derechos del niño. Establecimiento, 1153.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#ley2-5">-Capacitación obligatoria en violencia contra la mujer, violencia familiar y derechos del niño. Establecimiento,</a> 1153.</p>
   
-  <p>-Capacitación obligatoria sobre prevención y erradicación de violencia contra la mujer. Establecimiento en todos los niveles y jerarquías de los poderes Ejecutivo, Legislativo y Judicial, 1167.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#ley2-11">-Capacitación obligatoria sobre prevención y erradicación de violencia contra la mujer. Establecimiento en todos los niveles y jerarquías de los poderes Ejecutivo, Legislativo y Judicial,</a> 1167.</p>
   
-  <p>-Ley nº 7844 (Mediación Obligatoria Previa a la Iniciación de Juicios). Modificación, 1183.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#ley2-15">-Ley nº 7844 (Mediación Obligatoria Previa a la Iniciación de Juicios). Modificación,</a> 1183.</p>
   
-  <p>-Emergencia del Sector Turístico. Declaración en todo el territorio provincial por el plazo de 180 días, prorrogable por igual período o mientras duren los efectos de la pandemia Covid-19, lo que ocurra primero, 1191.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#ley2-16">-Emergencia del Sector Turístico. Declaración en todo el territorio provincial por el plazo de 180 días, prorrogable por igual período o mientras duren los efectos de la pandemia Covid-19, lo que ocurra primero,</a> 1191.</p>
   
-  <p>-Dengue. Realización de campañas para combatir al huevo y a la larva del mosquito trasmisor en el ámbito de la Provincia, 1207.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#ley2-25">-Dengue. Realización de campañas para combatir al huevo y a la larva del mosquito trasmisor en el ámbito de la Provincia,</a> 1207.</p>
   
-  <p>-Fondo Fiduciario Público denominado “Fondo Integral del Transporte Público de Pasajeros mediante Colectivo". Creación, 1213.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#ley2-28">-Fondo Fiduciario Público denominado “Fondo Integral del Transporte Público de Pasajeros mediante Colectivo". Creación,</a> 1213.</p>
   
-  <p>-Ley Nacional nº 27071 (Incorporación al Programa Médico Obligatorio la cobertura total de dispositivos y elementos accesorios para personas Ostomizadas). Adhesión de la Provincia, 1622.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#ley2-5">-Ley Nacional nº 27071 (Incorporación al Programa Médico Obligatorio la cobertura total de dispositivos y elementos accesorios para personas Ostomizadas). Adhesión de la Provincia,</a> 1622.</p>
   
-  <p>-Personal del servicio de Salud público y privado. Traslado gratuito en el transporte público de pasajeros mientras dure la Emergencia Sanitaria, 1626.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#ley2-7">-Personal del servicio de Salud público y privado. Traslado gratuito en el transporte público de pasajeros mientras dure la Emergencia Sanitaria,</a> 1626.</p>
   
-  <p>-Capacitación obligatoria en Derechos Humanos. Establecimiento para todas las personas que desempeñan tareas en la Policía y en el Ministerio de Seguridad de la Provincia, 1630.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#ley2-9">-Capacitación obligatoria en Derechos Humanos. Establecimiento para todas las personas que desempeñan tareas en la Policía y en el Ministerio de Seguridad de la Provincia,</a> 1630.</p>
   
-  <p>-Dirección de Asuntos Internos de la Policía de la Provincia de Tucumán y del Servicio Penitenciario Provincial. Creación, 1635.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#ley2-11">-Dirección de Asuntos Internos de la Policía de la Provincia de Tucumán y del Servicio Penitenciario Provincial. Creación,</a> 1635.</p>
   
-  <p>-Ley nº 8933 (Código Procesal Penal). Modificación del artículo 83 (Derechos de la Víctima), 1646.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#ley2-16">-Ley nº 8933 (Código Procesal Penal). Modificación del artículo 83 (Derechos de la Víctima),</a> 1646.</p>
   
-  <p>-Ley Nacional nº 27548 (Programa de Protección al Personal de Salud ante la Pandemia de Coronavirus Covid-19 -Ley Silvio-). Adhesión de la Provincia, 1660.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#ley2-19">-Ley Nacional nº 27548 (Programa de Protección al Personal de Salud ante la Pandemia de Coronavirus Covid-19 -Ley Silvio-). Adhesión de la Provincia,</a> 1660.</p>
   
-  <p>-Ley n° 7243 (Creación del Instituto Provincial de Lucha Contra el Alcoholismo -IPLA-). Suspensión del cobro de los montos anuales durante los períodos en los cuales estuvieron inhabilitadas para prestar servicios y por 180 días posteriores al reinicio de las actividades previstas en la misma, 1667.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#ley2-22">-Ley n° 7243 (Creación del Instituto Provincial de Lucha Contra el Alcoholismo -IPLA-). Suspensión del cobro de los montos anuales durante los períodos en los cuales estuvieron inhabilitadas para prestar servicios y por 180 días posteriores al reinicio de las actividades previstas en la misma,</a> 1667.</p>
   
-  <p>-Comisaría, destacamento de Patrulla Motorizada y Unidad de Investigaciones Criminales y Delitos Complejos de Concepción. Dotación de personal policial, equipamiento y movilidad, 1671.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#ley2-25">-Comisaría, destacamento de Patrulla Motorizada y Unidad de Investigaciones Criminales y Delitos Complejos de Concepción. Dotación de personal policial, equipamiento y movilidad,</a> 1671.</p>
   
-  <p>-Inmuebles ubicados en la localidad de Famaillá (Famaillá) (Padrones n° 377.792, 78.470, 78.468, 276.869 y 377.765). Declaración de utilidad pública y sujetos expropiación para la construcción de un cementerio, 1673.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#ley2-27">-Inmuebles ubicados en la localidad de Famaillá (Famaillá) (Padrones n° 377.792, 78.470, 78.468, 276.869 y 377.765). Declaración de utilidad pública y sujetos expropiación para la construcción de un cementerio,</a> 1673.</p>
   
-  <p>-Impuesto sobre los Ingresos Brutos. Eximición del pago a la fabricación, distribución y comercialización de medicamentos de uso humano, productos farmacéuticos y artículos de perfumería, 1679.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#ley2-31">-Impuesto sobre los Ingresos Brutos. Eximición del pago a la fabricación, distribución y comercialización de medicamentos de uso humano, productos farmacéuticos y artículos de perfumería,</a> 1679.</p>
   
-  <p>-Línea especial de créditos de emergencia para docentes denominada “Docentes Conectados". Instrumentación por parte de la Caja Popular de Ahorros para la adquisición de equipos y/o artefactos tecnológicos para el dictado de clases modalidad online, 2163.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#ley2-14">-Línea especial de créditos de emergencia para docentes denominada “Docentes Conectados". Instrumentación por parte de la Caja Popular de Ahorros para la adquisición de equipos y/o artefactos tecnológicos para el dictado de clases modalidad online,</a> 2163.</p>
   
-  <p>-Ley nº 27324 (Régimen de Promoción de los Pueblos Rurales Turísticos). Adhesión de la Provincia, 2166.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#ley2-15">-Ley nº 27324 (Régimen de Promoción de los Pueblos Rurales Turísticos). Adhesión de la Provincia,</a> 2166.</p>
   
-  <p>-Ley nº 5140 (Régimen Contravencional). Modificación del artículo 15, 2174.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#ley2-17">-Ley nº 5140 (Régimen Contravencional). Modificación del artículo 15,</a> 2174.</p>
   
-  <p>-Programa Provincial de Colecta Externa y Móvil de Sangre. Creación, 2184.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#ley2-22">-Programa Provincial de Colecta Externa y Móvil de Sangre. Creación,</a> 2184.</p>
   
-  <p>-Ley nº 7886 (Sistema de Fomento a la Inversión). Ratificación de su vigencia y sustitución del 2º párrafo del artículo 6º, 2201.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#ley2-29">-Ley nº 7886 (Sistema de Fomento a la Inversión). Ratificación de su vigencia y sustitución del 2º párrafo del artículo 6º,</a> 2201.</p>
   
-  <p>-Ingreso al territorio provincial por vía terrestre y aérea. Prohibición por el término de 60 días corridos, 2232.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#ley2-46">-Ingreso al territorio provincial por vía terrestre y aérea. Prohibición por el término de 60 días corridos,</a> 2232.</p>
   
-  <p>-Inmueble ubicado en Bella Vista (Leales) (Padrón n° 75.652). Declaración de utilidad pública y sujeto a expropiación para ser destinado a la creación del “Museo y Centro Cultural Manuel García Fernández"; y declaración como “Sitio Histórico Provincial" al chalet ubicado en el ingenio de esa localidad, 2520.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#ley2-1">-Inmueble ubicado en Bella Vista (Leales) (Padrón n° 75.652). Declaración de utilidad pública y sujeto a expropiación para ser destinado a la creación del “Museo y Centro Cultural Manuel García Fernández"; y declaración como “Sitio Histórico Provincial" al chalet ubicado en el ingenio de esa localidad,</a> 2520.</p>
   
-  <p>-Complejo Deportivo “General Muñoz" (Capital). Cesión en comodato a la Municipalidad de San Miguel de Tucumán para su administración y mantenimiento, 2540.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#ley2-7">-Complejo Deportivo “General Muñoz" (Capital). Cesión en comodato a la Municipalidad de San Miguel de Tucumán para su administración y mantenimiento,</a> 2540.</p>
   
-  <p>-Ley n° 7844 (Mediación obligatoria previa a todo juicio). Modificación de su artículo 10 (Preferente despacho a los procesos de mediación por alimentos), 2544.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#ley2-9">-Ley n° 7844 (Mediación obligatoria previa a todo juicio). Modificación de su artículo 10 (Preferente despacho a los procesos de mediación por alimentos),</a> 2544.</p>
   
-  <p>-Ley n° 5473 (Estatuto del Empleado Público). Modificación de su artículo 27, inciso 5° (Licencia por Adopción), 2553.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#ley2-16">-Ley n° 5473 (Estatuto del Empleado Público). Modificación de su artículo 27, inciso 5° (Licencia por Adopción),</a> 2553.</p>
   
-  <p>-Caja Popular de Ahorros de la Provincia. Instrumentación de una línea especial de créditos denominada “Familias Conectadas", 2562.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#ley2-19">-Caja Popular de Ahorros de la Provincia. Instrumentación de una línea especial de créditos denominada “Familias Conectadas",</a> 2562.</p>
   
-  <p>-Máscaras o barbijos transparentes a todo personal del ámbito público y privado que trabaja de cara al público. Obligatoriedad de su uso para que personas hipoacúsicas o con dificultades auditivas puedan leer sus labios, 2834.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#ley2-10">-Máscaras o barbijos transparentes a todo personal del ámbito público y privado que trabaja de cara al público. Obligatoriedad de su uso para que personas hipoacúsicas o con dificultades auditivas puedan leer sus labios,</a> 2834.</p>
   
-  <p>-Programa “Hospital Conectado", a fin de garantizar el servicio de Wifi en los hospitales y centros de salud de la Provincia. Creación, 2843.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#ley2-12">-Programa “Hospital Conectado", a fin de garantizar el servicio de Wifi en los hospitales y centros de salud de la Provincia. Creación,</a> 2843.</p>
   
-  <p>-Régimen de control de la contaminación acústica. Establecimiento para prevenir y mitigar sus efectos, 2845.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#ley2-13">-Régimen de control de la contaminación acústica. Establecimiento para prevenir y mitigar sus efectos,</a> 2845.</p>
   
-  <p>-Programa Provincial de promoción y fomento del uso de la bicicleta como medio de transporte no contaminante. Creación, 2906.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#ley2-21">-Programa Provincial de promoción y fomento del uso de la bicicleta como medio de transporte no contaminante. Creación,</a> 2906.</p>
   
-  <p>-Ley nº 6238 (Orgánica del Poder Judicial) y sus modificatorias. Modificación, 3407.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-3">-Ley nº 6238 (Orgánica del Poder Judicial) y sus modificatorias. Modificación,</a> 3407.</p>
   
-  <p>-Inmuebles con edificación existente o en proyecto de construcción tantos públicos como privados. Etiquetado de eficiencia energética a fin de clasificarlos según su grado de consumo global de energía, 3430.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-12">-Inmuebles con edificación existente o en proyecto de construcción tantos públicos como privados. Etiquetado de eficiencia energética a fin de clasificarlos según su grado de consumo global de energía,</a> 3430.</p>
   
-  <p>-Propietarios de salones de usos múltiples y organizadores de eventos de la Provincia. Aplicación de un régimen transitorio de emergencia para su actividad, 3448.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-17">-Propietarios de salones de usos múltiples y organizadores de eventos de la Provincia. Aplicación de un régimen transitorio de emergencia para su actividad,</a> 3448.</p>
   
-  <p>-“Certificado de Crédito Fiscal Normativo y Endosable". Creación, 3467.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-22">-“Certificado de Crédito Fiscal Normativo y Endosable". Creación,</a> 3467.</p>
   
-  <p>-Carriles exclusivos para bicicletas o ciclovías en intersección de Av. Lídoro Quinteros y Ruta Provincial Nº 308 (Ciudad de Alberdi) hasta el km 12,2 de El Paraje El 25 (El Corralito). Creación. 3473.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-25">-Carriles exclusivos para bicicletas o ciclovías en intersección de Av. Lídoro Quinteros y Ruta Provincial Nº 308 (Ciudad de Alberdi) hasta el km 12,2 de El Paraje El 25 (El Corralito). Creación. 3473.</p>
   
-  <p>-Impuesto Provincial Automotor a los propietarios de transportes escolares, por el período comprendido desde el mes de marzo a diciembre de 2020. Exención del pago, 3486.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-29">-Impuesto Provincial Automotor a los propietarios de transportes escolares, por el período comprendido desde el mes de marzo a diciembre de 2020. Exención del pago,</a> 3486.</p>
   
-  <p>-Ley nº 8467 (Impositiva). Derogación de los artículos 11 y 55, 3558.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-67">-Ley nº 8467 (Impositiva). Derogación de los artículos 11 y 55,</a> 3558.</p>
   
-  <p>-“Año del Bicentenario de la Fundación de la Industria Azucarera". Institución al año 2021, 3561.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-69">-“Año del Bicentenario de la Fundación de la Industria Azucarera". Institución al año 2021,</a> 3561.</p>
   
-  <p>-Código de Ética Judicial. Creación, 3570.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-75">-Código de Ética Judicial. Creación,</a> 3570.</p>
   
-  <p>-Oficina Anticorrupción y Ética Pública. Creación, 3580.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-76">-Oficina Anticorrupción y Ética Pública. Creación,</a> 3580.</p>
   
-  <p>-Ley nº 6238 (Orgánica del Poder Judicial). Modificación de los artículos 84 y 86 (Jurisdicción territorial de los centros judiciales de Concepción y Monteros), 3584.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#ley2-77">-Ley nº 6238 (Orgánica del Poder Judicial). Modificación de los artículos 84 y 86 (Jurisdicción territorial de los centros judiciales de Concepción y Monteros),</a> 3584.</p>
   
-  <p>-Leyes nros. 8198 (Juicio Político) y 8734 (Proceso de Enjuiciamiento). Modificación, 3944.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#ley2-3">-Leyes nros. 8198 (Juicio Político) y 8734 (Proceso de Enjuiciamiento). Modificación,</a> 3944.</p>
   
-  <p>-Hospital de Día “Néstor Kirchner", ubicado en calle Mendoza nº 128 (Capital). Designación con el nombre de “Dr. Jesús María Amenábar", 3956.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#ley2-7">-Hospital de Día “Néstor Kirchner", ubicado en calle Mendoza nº 128 (Capital). Designación con el nombre de “Dr. Jesús María Amenábar",</a> 3956.</p>
   
-  <p>-Consulta Pública Documentada para resolver la revisión extraordinaria del cuadro tarifario de EDET S. A., previsto en la Resolución 480/20-Ersept. Suspensión por un plazo de 180 días, 4004.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#ley2-22">-Consulta Pública Documentada para resolver la revisión extraordinaria del cuadro tarifario de EDET S. A., previsto en la Resolución 480/20-Ersept. Suspensión por un plazo de 180 días,</a> 4004.</p>
+
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#ley2-23">Consulta Pública Documentada para resolver la revisión extraordinaria del cuadro tarifario de Sociedad Aguas del Tucumán, prevista en la Resolución 472/20-Ersept. Suspensión por un plazo de 180 días,</a> 4006.</p>
   
-  <p>-Decreto de Necesidad y Urgencia nº 756/20 del Poder Ejecutivo Nacional (Suspensión del corte de servicios hasta el 31/12/2020 por parte de empresas prestadoras de servicios de energía eléctrica, gas, agua, telefonía e internet y televisión). Adhesión de la Provincia, 4013.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#ley2-25">-Decreto de Necesidad y Urgencia nº 756/20 del Poder Ejecutivo Nacional (Suspensión del corte de servicios hasta el 31/12/2020 por parte de empresas prestadoras de servicios de energía eléctrica, gas, agua, telefonía e internet y televisión). Adhesión de la Provincia,</a> 4013.</p>
   
-  <p>-Habilitación de crematorios de cadáveres y restos humanos. Regulación, 4059.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#ley2-44">-Habilitación de crematorios de cadáveres y restos humanos. Regulación,</a> 4059.</p>
   
-  <p>-Ley n° 8933 (Código Procesal Penal de la Provincia). Modificación (Prisión preventiva y condenas), 4467.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-4">-Ley n° 8933 (Código Procesal Penal de la Provincia). Modificación (Prisión preventiva y condenas),</a> 4467.</p>
   
-  <p>-Ley Nacional nº 26815 (Manejo del fuego) y sus Modificatorias. Adhesión de la Provincia, 4473.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-9">-Ley Nacional nº 26815 (Manejo del fuego) y sus Modificatorias. Adhesión de la Provincia,</a> 4473.</p>
   
-  <p>-Personas con diagnóstico de Covid-19 internadas en instituciones públicas o privadas. Derecho al contacto directo con sus familiares, 4491.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-14">-Personas con diagnóstico de Covid-19 internadas en instituciones públicas o privadas. Derecho al contacto directo con sus familiares,</a> 4491.</p>
   
-  <p>-Programa “Tucumán es pura energía renovable". Solicitud al Poder Ejecutivo su implementación para la utilización masiva de biocombustibles, 4508.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-24">-Programa “Tucumán es pura energía renovable". Solicitud al Poder Ejecutivo su implementación para la utilización masiva de biocombustibles,</a> 4508.</p>
   
-  <p>-Ley n º 8933 (Código Procesal Penal de la Provincia). Modificación, 4514, 4516.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-26">-Ley n º 8933 (Código Procesal Penal de la Provincia). Modificación, 4514,</a> 4516.</p>
   
-  <p>-Venta ilegal de alimentos y/o medicamentos destinados a organizaciones civiles que sean proporcionadas a través de Programas de Asistencia. Establecimiento de procedimiento ante la toma de conocimiento, 4527.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-30">-Venta ilegal de alimentos y/o medicamentos destinados a organizaciones civiles que sean proporcionadas a través de Programas de Asistencia. Establecimiento de procedimiento ante la toma de conocimiento,</a> 4527.</p>
   
-  <p>-Ley nº 8976 (Instalación y puesta en funcionamiento de un desfibrilador externo automático en locales públicos y/o privados de concurrencia masiva de público). Modificación, 4534.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-35">-Ley nº 8976 (Instalación y puesta en funcionamiento de un desfibrilador externo automático en locales públicos y/o privados de concurrencia masiva de público). Modificación,</a> 4534.</p>
   
-  <p>-Emergencia Cultural en la Provincia. Declaración, 4558.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-45">-Emergencia Cultural en la Provincia. Declaración,</a> 4558.</p>
   
-  <p>-Equipo interdisciplinario “anti tomas", formado por el Ministerio Público Fiscal, Ministerio de Seguridad, Jefe de Policía y mediadores. Creación, 4563.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-46">-Equipo interdisciplinario “anti tomas", formado por el Ministerio Público Fiscal, Ministerio de Seguridad, Jefe de Policía y mediadores. Creación,</a> 4563.</p>
   
-  <p>-Ley nº 6210 (Bases para la coordinación, planeamiento, regulación y control del transporte público de pasajeros en todo el territorio de la Provincia). Modificación, 4571.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-50">-Ley nº 6210 (Bases para la coordinación, planeamiento, regulación y control del transporte público de pasajeros en todo el territorio de la Provincia). Modificación,</a> 4571.</p>
   
-  <p>-“Portal Educativo Tucumán", a trasmitirse por Canal 10 de Tucumán, garantizando la conectividad ilimitada, gratuita y el vínculo entre docentes y alumnos en razón de la emergencia sanitaria. Creación, 4582.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-54">-“Portal Educativo Tucumán", a trasmitirse por Canal 10 de Tucumán, garantizando la conectividad ilimitada, gratuita y el vínculo entre docentes y alumnos en razón de la emergencia sanitaria. Creación,</a> 4582.</p>
   
-  <p>-Instituto para adolescentes en conflicto con la ley penal con asiento en el interior de la Provincia. Creación con fines de reeducación y posterior reinserción en la sociedad, 4583.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#ley2-55">-Instituto para adolescentes en conflicto con la ley penal con asiento en el interior de la Provincia. Creación con fines de reeducación y posterior reinserción en la sociedad,</a> 4583.</p>
   
-  <p>-Ley de lenguaje claro. Sanción, 4957.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#ley2-2">-Ley de lenguaje claro. Sanción,</a> 4957.</p>
   
-  <p>-Servicio de transporte privado a través de plataformas electrónicas. Regulación, 4966.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#ley2-6">-Servicio de transporte privado a través de plataformas electrónicas. Regulación,</a> 4966.</p>
   
-  <p>-Programa provincial de accesibilidad turística, en el ámbito del Ente Autárquico Tucumán Turismo. Creación, 4986.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#ley2-11">-Programa provincial de accesibilidad turística, en el ámbito del Ente Autárquico Tucumán Turismo. Creación,</a> 4986.</p>
   
-  <p>-Ley Nacional n° 27454 (de creación del “Plan Nacional de Reducción de Pérdidas y Desperdicio de Alimentos -PDA-). Adhesión de la Provincia, 5004.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#ley2-17">-Ley Nacional n° 27454 (de creación del “Plan Nacional de Reducción de Pérdidas y Desperdicio de Alimentos -PDA-). Adhesión de la Provincia,</a> 5004.</p>
   
-  <p>-Ley Nacional n° 27549 (Beneficios especiales al Personal de Salud, Fuerzas Armadas, de Seguridad y otros ante la pandemia de Covid-19). Adhesión de la Provincia, 5009.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#ley2-20">-Ley Nacional n° 27549 (Beneficios especiales al Personal de Salud, Fuerzas Armadas, de Seguridad y otros ante la pandemia de Covid-19). Adhesión de la Provincia,</a> 5009.</p>
   
-  <p>-Escuela n° 387 “Arturo Illia", de la ciudad de Concepción. Creación de la extensión del Centro de Educación Física n° 24, 5011.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#ley2-21">-Escuela n° 387 “Arturo Illia", de la ciudad de Concepción. Creación de la extensión del Centro de Educación Física n° 24,</a> 5011.</p>
   
-  <p>-Régimen Provincial de Promoción de la industria del software de Tucumán. Creación, 5020.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#ley2-27">-Régimen Provincial de Promoción de la industria del software de Tucumán. Creación,</a> 5020.</p>
   
-  <p>-Sistema de votación electrónica para todos los cargos públicos electivos de la Provincia. Establecimiento, 5029.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#ley2-32">-Sistema de votación electrónica para todos los cargos públicos electivos de la Provincia. Establecimiento,</a> 5029.</p>
   
-  <p>-Ley n° 9177  (de Titularización de Docentes Estatales). Modificación de los artículos 2°, 4° y 5°, 5510.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#ley2-6">-Ley n° 9177  (de Titularización de Docentes Estatales). Modificación de los artículos 2°, 4° y 5°,</a> 5510.</p>
   
-  <p>-Registro de Prestadores de Servicio de guías de Turismo de la Provincia de Tucumán. Creación, y declaración de Interés Turístico Provincial la actividad desarrollada por los guías de turismo, 5517.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#ley2-12">-Registro de Prestadores de Servicio de guías de Turismo de la Provincia de Tucumán. Creación, y declaración de Interés Turístico Provincial la actividad desarrollada por los guías de turismo,</a> 5517.</p>
   
-  <p>-“Día de la Flor del Ceibo". Establecimiento al día 22 de noviembre de cada año, 5529.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#ley2-18">-“Día de la Flor del Ceibo". Establecimiento al día 22 de noviembre de cada año,</a> 5529.</p>
+
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#ley2-22">Prestadores de Servicio de Guías de Turismo. Regulación y registración,</a> 5537.</p>
+    
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#ley2-52">-Proyecto de Ley sancionado por la H. Legislatura en fecha 01/10/2020, comunicado al Poder Ejecutivo por nota P.L. 218/2020: Declaración de utilidad pública y sujeto a expropiación de inmueble en Bella Vista (Leales) (Padrón Nº 75.652) para ser destinado a la creación del “Museo y Centro Cultural Manuel García Fernández". Modificación,</a> 5579.</p>
   
-  <p>-Ley nacional n° 27592 (de Formación Integral en Ambiente con perspectiva de desarrollo sostenible y con especial énfasis en cambio climático para personas que se desempeñan en la función pública -“Ley Yolanda"-). Adhesión de la Provincia, 5558.</p>
-  
-  <p>-Proyecto de Ley sancionado por la H. Legislatura en fecha 01/10/2020, comunicado al Poder Ejecutivo por nota P.L. 218/2020: Declaración de utilidad pública y sujeto a expropiación de inmueble en Bella Vista (Leales) (Padrón Nº 75.652) para ser destinado a la creación del “Museo y Centro Cultural Manuel García Fernández". Modificación, 5579.</p>
-  
-  <p>-Inmuebles en Capital (Padrones Nros. 10.852 y 10.167). Declaración de Utilidad Pública y Sujetos a Expropiación para ser destinados al Desarrollo Integral, Armónico, Cultural, Turístico, Educativo y Museológico del entorno de la Casa Histórica, 5580.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#ley2-53">-Inmuebles en Capital (Padrones Nros. 10.852 y 10.167). Declaración de Utilidad Pública y Sujetos a Expropiación para ser destinados al Desarrollo Integral, Armónico, Cultural, Turístico, Educativo y Museológico del entorno de la Casa Histórica,</a> 5580.</p>
   
   <h4 class="mt-5" id="scrollspyHeading10">Proyecto de resolución:</h4>
   
@@ -643,206 +656,206 @@
   
   <p><a href="/periodo115/asuntoslink/asuntos2.html#res3-18">-Señor Ministro de Seguridad, don Claudio Maley. Citación a la H. Legislatura a fin de informar detalles de su área,</a> 250.</p>
   
-  <p>-Señor Alberto Calliera. Manifestación de profundo pesar por su fallecimiento, 257.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos2.html#res3-24">-Señor Alberto Calliera. Manifestación de profundo pesar por su fallecimiento,</a> 257.</p>
   
-  <p>-Barrios San Roque y Palo Blanco, de la localidad de Arcadia (Chicligasta). Solicitud de provisión de agua potable, 278.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos2.html#res3-38">-Barrios San Roque y Palo Blanco, de la localidad de Arcadia (Chicligasta). Solicitud de provisión de agua potable,</a> 278.</p>
   
-  <p>-Ley nº 9074 (Separación de residuos orgánicos e inorgánicos en todas las oficinas y edificios públicos de la Provincia). Solicitud al Poder Ejecutivo su efectivo cumplimiento y aplicación, 287.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos2.html#res3-43">-Ley nº 9074 (Separación de residuos orgánicos e inorgánicos en todas las oficinas y edificios públicos de la Provincia). Solicitud al Poder Ejecutivo su efectivo cumplimiento y aplicación,</a> 287.</p>
   
-  <p>-Ley nº 6292 (Declaración de interés público la preservación, conservación, propagación, restauración, población, repoblación y aprovechamiento racional de la flora silvestre, recursos biológicos acuáticos y fauna silvestre de la Provincia). Solicitud al Poder Ejecutivo el efectivo cumplimiento y aplicación de su Título III, 293.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos2.html#res3-48">-Ley nº 6292 (Declaración de interés público la preservación, conservación, propagación, restauración, población, repoblación y aprovechamiento racional de la flora silvestre, recursos biológicos acuáticos y fauna silvestre de la Provincia). Solicitud al Poder Ejecutivo el efectivo cumplimiento y aplicación de su Título III,</a> 293.</p>
   
-  <p>-Emergencia por Coronavirus y Dengue. Solicitud al Poder Ejecutivo adopte medidas de prevención y cuidado de la salud de los tucumanos, 296.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos2.html#res3-50">-Emergencia por Coronavirus y Dengue. Solicitud al Poder Ejecutivo adopte medidas de prevención y cuidado de la salud de los tucumanos,</a> 296.</p>
   
-  <p>-Alcohol en gel. Solicitud al Poder Ejecutivo su provisión en todas las dependencias públicas de la Provincia, 297.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos2.html#res3-51">-Alcohol en gel. Solicitud al Poder Ejecutivo su provisión en todas las dependencias públicas de la Provincia,</a> 297.</p>
   
-  <p>-Locales de juego de azar. Inclusión en las medidas limitativas de grandes concentraciones dispuestas por DNU nº 1/1 del Poder Ejecutivo Provincial, 298.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos2.html#res3-52">-Locales de juego de azar. Inclusión en las medidas limitativas de grandes concentraciones dispuestas por DNU nº 1/1 del Poder Ejecutivo Provincial,</a> 298.</p>
   
-  <p>-Emergencia Epidemiológica por Coronavirus. Solicitud al Poder Ejecutivo especifique, amplíe, intensifique y/o tome medidas para informar y llevar tranquilidad a la población, en el marco del DNU nº 1/1 y de los anuncios efectuados en las últimas horas, 307.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos2.html#res3-57">-Emergencia Epidemiológica por Coronavirus. Solicitud al Poder Ejecutivo especifique, amplíe, intensifique y/o tome medidas para informar y llevar tranquilidad a la población, en el marco del DNU nº 1/1 y de los anuncios efectuados en las últimas horas,</a> 307.</p>
   
-  <p>-Recursos de la Legislatura ($ 293.000.000). Transferencia al Ministerio de Salud Pública de la Provincia para paliar el impacto de la pandemia de Coronavirus, 583.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos3.html#res3-7">-Recursos de la Legislatura ($ 293.000.000). Transferencia al Ministerio de Salud Pública de la Provincia para paliar el impacto de la pandemia de Coronavirus,</a> 583.</p>
   
-  <p>-Recursos del “Programa para la Emergencia Financiera Provincial" establecido por Decreto Nacional nº 352/2020. Exhortación al Poder Ejecutivo a distribuir a municipios y comunas en base a los porcentajes establecidos en la Ley nº 6316 y sus modificatorias, 870.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#res3-2">-Recursos del “Programa para la Emergencia Financiera Provincial" establecido por Decreto Nacional nº 352/2020. Exhortación al Poder Ejecutivo a distribuir a municipios y comunas en base a los porcentajes establecidos en la Ley nº 6316 y sus modificatorias,</a> 870.</p>
   
-  <p>-Comisión Especial de Emergencia Covid19. Creación, 874.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#res3-5">-Comisión Especial de Emergencia Covid19. Creación,</a> 874.</p>
   
-  <p>-Instituciones educativas de gestión privada. Apertura restringida para el cobro de cuotas, 876.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#res3-6">-Instituciones educativas de gestión privada. Apertura restringida para el cobro de cuotas,</a> 876.</p>
   
-  <p>-Servicio de vacunación para adultos mayores de 65 años en el interior de sus vehículos (Auto VAC). Implementación en la ciudad de Concepción, 879.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#res3-8">-Servicio de vacunación para adultos mayores de 65 años en el interior de sus vehículos (Auto VAC). Implementación en la ciudad de Concepción,</a> 879.</p>
   
-  <p>-Aislamiento social y preventivo, y prohibición de circular al personal afectado a determinadas actividades y rubros que se desarrollan en nuestra Provincia. Solicitud de informe al Poder Ejecutivo de la Provincia sobre los motivos por los cuales no formalizó pedido alguno de excepción, imposibilitando así su inclusión en la Decisión Administrativa nº 524/2020, 882.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#res3-10">-Aislamiento social y preventivo, y prohibición de circular al personal afectado a determinadas actividades y rubros que se desarrollan en nuestra Provincia. Solicitud de informe al Poder Ejecutivo de la Provincia sobre los motivos por los cuales no formalizó pedido alguno de excepción, imposibilitando así su inclusión en la Decisión Administrativa nº 524/2020,</a> 882.</p>
   
-  <p>-Ejercicio libre de la abogacía. Solicitud al Poder Ejecutivo peticione al señor Presidente de la Nación su incorporación en el listado de actividades y servicios declarados esenciales por Decreto de Necesidad y Urgencia nº 297/20, 894.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#res3-17">-Ejercicio libre de la abogacía. Solicitud al Poder Ejecutivo peticione al señor Presidente de la Nación su incorporación en el listado de actividades y servicios declarados esenciales por Decreto de Necesidad y Urgencia nº 297/20,</a> 894.</p>
   
-  <p>-Transporte automotor de cargas terrestre. Solicitud al Poder Ejecutivo extreme los controles sanitarios en los accesos a la Provincia, 914.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#res3-28">-Transporte automotor de cargas terrestre. Solicitud al Poder Ejecutivo extreme los controles sanitarios en los accesos a la Provincia,</a> 914.</p>
   
-  <p>-Profesora María Inés Santillán. Felicitaciones por su destacada labor al cumplirse el 29 de abril 35 años de trayectoria artística, 916.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#res3-31">-Profesora María Inés Santillán. Felicitaciones por su destacada labor al cumplirse el 29 de abril 35 años de trayectoria artística,</a> 916.</p>
   
-  <p>-Proyectos de ley sancionados por la Honorable Legislatura que no fueron oportunamente vetados por el Poder Ejecutivo. Expresión de malestar del Cuerpo por la vulneración del proceso de formación de leyes; solicitud de inmediata registración y publicación; y exhortación de estricta observancia del artículo 71 de la Constitución Provincial, 919.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos4.html#res3-34">-Proyectos de ley sancionados por la Honorable Legislatura que no fueron oportunamente vetados por el Poder Ejecutivo. Expresión de malestar del Cuerpo por la vulneración del proceso de formación de leyes; solicitud de inmediata registración y publicación; y exhortación de estricta observancia del artículo 71 de la Constitución Provincial,</a> 919.</p>
   
-  <p>-Actividades y servicios declarados esenciales por DNU Nacional n° 297/20. Solicitud al Presidente de la Nación la incorporación de actividades y rubros comerciales aún no permitidos, 1224.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#res3-6">-Actividades y servicios declarados esenciales por DNU Nacional n° 297/20. Solicitud al Presidente de la Nación la incorporación de actividades y rubros comerciales aún no permitidos,</a> 1224.</p>
   
-  <p>-Actividades y servicios declarados esenciales por DNU Nacional n° 297/20. Solicitud al Presidente de la Nación la incorporación de la obra privada de la construcción, 1225.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#res3-7">-Actividades y servicios declarados esenciales por DNU Nacional n° 297/20. Solicitud al Presidente de la Nación la incorporación de la obra privada de la construcción,</a> 1225.</p>
   
-  <p>-Misas y Sacramentos preceptuados por la Iglesia Católica. Solicitud al Poder Ejecutivo Provincial admita y gestione su celebración y administración en los templos, con los cuidados y protocolos sanitarios correspondientes, 1238.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#res3-14">-Misas y Sacramentos preceptuados por la Iglesia Católica. Solicitud al Poder Ejecutivo Provincial admita y gestione su celebración y administración en los templos, con los cuidados y protocolos sanitarios correspondientes,</a> 1238.</p>
   
-  <p>-Ley nº 26522 (De Regulación de Servicios de Comunicación Audiovisual). Solicitud al Poder Ejecutivo arbitre los medios necesarios para la aplicación y efectivo cumplimiento de los artículos 66 y concordantes, 1243.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#res3-17">-Ley nº 26522 (De Regulación de Servicios de Comunicación Audiovisual). Solicitud al Poder Ejecutivo arbitre los medios necesarios para la aplicación y efectivo cumplimiento de los artículos 66 y concordantes,</a> 1243.</p>
   
-  <p>-Proyecto de ley sancionado por la Honorable Legislatura en fecha 30/08/2017 (Expediente nº 290-PL-16: Establecimiento del día 19 de septiembre de cada año como el “Día de las Personas Sordas e Hipoacúsicas"). Solicitud al Poder Ejecutivo su publicación y registración, 1256.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos5.html#res3-28">-Proyecto de ley sancionado por la Honorable Legislatura en fecha 30/08/2017 (Expediente nº 290-PL-16: Establecimiento del día 19 de septiembre de cada año como el “Día de las Personas Sordas e Hipoacúsicas"). Solicitud al Poder Ejecutivo su publicación y registración,</a> 1256.</p>
   
-  <p>-Práctica deportiva de fútbol 5 o de salón en complejos deportivos o canchas de césped sintético o natural. Solicitud al Poder Ejecutivo la incorporación, 1687.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#res3-6">-Práctica deportiva de fútbol 5 o de salón en complejos deportivos o canchas de césped sintético o natural. Solicitud al Poder Ejecutivo la incorporación,</a> 1687.</p>
   
-  <p>-Locales gastronómicos. Solicitud al Poder Ejecutivo la apertura parcial en el territorio de la Provincia para consumo en el local, 1693.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#res3-11">-Locales gastronómicos. Solicitud al Poder Ejecutivo la apertura parcial en el territorio de la Provincia para consumo en el local,</a> 1693.</p>
   
-  <p>-Actividades deportivas de fitness, boxes de crossfit y entrenamiento funcional. Solicitud al Poder Ejecutivo la incorporación dentro de las actividades esenciales exceptuadas del aislamiento social preventivo y obligatorio, 1699.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#res3-12">-Actividades deportivas de fitness, boxes de crossfit y entrenamiento funcional. Solicitud al Poder Ejecutivo la incorporación dentro de las actividades esenciales exceptuadas del aislamiento social preventivo y obligatorio,</a> 1699.</p>
   
-  <p>-Proyecto de ley sancionado por la Honorable Legislatura en fecha 22/11/2019 (Autorización al Instituto Provincial de Vivienda y Desarrollo Urbano a transferir a título gratuito a la Policía de Tucumán un inmueble ubicado en la ciudad de Concepción, padrón n° 252.856). Solicitud al Poder Ejecutivo su registración, publicación y efectivo cumplimiento, 1710.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#res3-21">-Proyecto de ley sancionado por la Honorable Legislatura en fecha 22/11/2019 (Autorización al Instituto Provincial de Vivienda y Desarrollo Urbano a transferir a título gratuito a la Policía de Tucumán un inmueble ubicado en la ciudad de Concepción, padrón n° 252.856). Solicitud al Poder Ejecutivo su registración, publicación y efectivo cumplimiento,</a> 1710.</p>
   
-  <p>-Proyecto de ley sancionado por la Honorable Legislatura en fecha 04/10/2018 (Autorización a la Dirección Provincial de Vialidad a transferir a título gratuito a los Bomberos Voluntarios de La Trinidad inmueble ubicado sobre la ruta provincial n° 329, padrón n° 53.365). Solicitud al Poder Ejecutivo su registración, publicación y efectivo cumplimiento, 1712.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#res3-22">-Proyecto de ley sancionado por la Honorable Legislatura en fecha 04/10/2018 (Autorización a la Dirección Provincial de Vialidad a transferir a título gratuito a los Bomberos Voluntarios de La Trinidad inmueble ubicado sobre la ruta provincial n° 329, padrón n° 53.365). Solicitud al Poder Ejecutivo su registración, publicación y efectivo cumplimiento,</a> 1712.</p>
   
-  <p>-Salón de Conferencias de la  Legislatura de la Provincia de Tucumán, sito en el 8° piso del edificio de calle Muñecas esquina avenida Sarmiento. Designación con el nombre de
-  “Lola Mora", 1722.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#res3-31">-Salón de Conferencias de la  Legislatura de la Provincia de Tucumán, sito en el 8° piso del edificio de calle Muñecas esquina avenida Sarmiento. Designación con el nombre de
+  “Lola Mora",</a> 1722.</p>
   
-  <p>-Feria de Artesanos. Solicitud al Poder Ejecutivo las medidas para flexibilizar y autorizar su realización en espacios públicos abiertos, 1736.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#res3-42">-Feria de Artesanos. Solicitud al Poder Ejecutivo las medidas para flexibilizar y autorizar su realización en espacios públicos abiertos,</a> 1736.</p>
   
-  <p>-Patrulla Motorizada de la Policía de la Provincia. Solicitud al Poder Ejecutivo la creación en la ciudad de Bella Vista, 1743.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#res3-46">-Patrulla Motorizada de la Policía de la Provincia. Solicitud al Poder Ejecutivo la creación en la ciudad de Bella Vista,</a> 1743.</p>
   
-  <p>-Ley nº 6941 (De Equiparación de Oportunidades para Personas Sordas e Hipoacúsicas en el ámbito de la Provincia de Tucumán). Solicitud al Poder Ejecutivo su efectivo cumplimiento, especialmente su artículo 2º, incisos 2) y 4), 1744.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos6.html#res3-48">-Ley nº 6941 (De Equiparación de Oportunidades para Personas Sordas e Hipoacúsicas en el ámbito de la Provincia de Tucumán). Solicitud al Poder Ejecutivo su efectivo cumplimiento, especialmente su artículo 2º, incisos 2) y 4),</a> 1744.</p>
   
-  <p>-“Feria Frutihortícola Minorista" organizada por el Mercofrut. Solicitud al Poder Ejecutivo flexibilice y autorice su realización los días sábados, 2245.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#res3-3">-“Feria Frutihortícola Minorista" organizada por el Mercofrut. Solicitud al Poder Ejecutivo flexibilice y autorice su realización los días sábados,</a> 2245.</p>
   
-  <p>-Destacamento de Gendarmería Nacional. Solicitud al Poder Ejecutivo la instalación en el inmueble ubicado en calle Rivadavia n° 485, esquina calle Matienzo, de la ciudad de Concepción (Chicligasta), 2263.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#res3-16">-Destacamento de Gendarmería Nacional. Solicitud al Poder Ejecutivo la instalación en el inmueble ubicado en calle Rivadavia n° 485, esquina calle Matienzo, de la ciudad de Concepción (Chicligasta),</a> 2263.</p>
   
-  <p>-Desechos industriales vertidos en la cuenca del Río Salí por los ingenios azucareros. Solicitud al Poder Ejecutivo realice estrictos controles y constate los niveles de contaminación, 2264.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#res3-17">-Desechos industriales vertidos en la cuenca del Río Salí por los ingenios azucareros. Solicitud al Poder Ejecutivo realice estrictos controles y constate los niveles de contaminación,</a> 2264.</p>
   
-  <p>-Servicio de agua en la zona del “Camino Vecinal a Ohuanta" (Avenida Solano Vera kilómetro 5 de la ruta provincial n° 331), de la Comuna de San Pablo (Lules). Solicitud al Poder Ejecutivo asegure el restablecimiento, 2265.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#res3-18">-Servicio de agua en la zona del “Camino Vecinal a Ohuanta" (Avenida Solano Vera kilómetro 5 de la ruta provincial n° 331), de la Comuna de San Pablo (Lules). Solicitud al Poder Ejecutivo asegure el restablecimiento,</a> 2265.</p>
   
-  <p>-Práctica deportiva de basquetbol, hándbol y vóley. Solicitud al Poder Ejecutivo autorice su habilitación en el territorio provincial, 2266.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#res3-19">-Práctica deportiva de basquetbol, hándbol y vóley. Solicitud al Poder Ejecutivo autorice su habilitación en el territorio provincial,</a> 2266.</p>
   
-  <p>-Productores, transportistas y trabajadores declarados esenciales que requieran ingresar a Santiago del Estero. Solicitud al Poder Ejecutivo gestione ante las autoridades nacionales y provinciales la libre circulación, 2270.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#res3-22">-Productores, transportistas y trabajadores declarados esenciales que requieran ingresar a Santiago del Estero. Solicitud al Poder Ejecutivo gestione ante las autoridades nacionales y provinciales la libre circulación,</a> 2270.</p>
   
-  <p>-Ciudadanos que aprobaron durante los años 2018 y 2019 el curso de capacitación para aspirantes a agentes de policía. Solicitud al señor Gobernador de la Provincia su incorporación como personal del Departamento General de Policía, 2272.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#res3-25">-Ciudadanos que aprobaron durante los años 2018 y 2019 el curso de capacitación para aspirantes a agentes de policía. Solicitud al señor Gobernador de la Provincia su incorporación como personal del Departamento General de Policía,</a> 2272.</p>
     
-  <p>-Elementos secuestrados par la División de Secuestros Judiciales de la Unidad Regional Sur de la Policía. Traslado a otro predio y/o utilización conveniente para salvaguardar y garantizar la salubridad pública, 2280.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#res3-30">-Elementos secuestrados par la División de Secuestros Judiciales de la Unidad Regional Sur de la Policía. Traslado a otro predio y/o utilización conveniente para salvaguardar y garantizar la salubridad pública,</a> 2280.</p>
   
-  <p>-Avenida de Circunvalación de San Miguel de Tucumán. Solicitud a la Dirección Nacional de Vialidad la inclusión de la Obra de alumbrado público en el Plan de Obras del año 2021, 2287.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#res3-34">-Avenida de Circunvalación de San Miguel de Tucumán. Solicitud a la Dirección Nacional de Vialidad la inclusión de la Obra de alumbrado público en el Plan de Obras del año 2021,</a> 2287.</p>
   
-  <p>-Test de diagnóstico serológico para la Hepatitis E. Declaración de interés legislativo el trabajo realizado por el Instituto Superior de Investigaciones Biológicas (Insibio) para su desarrollo, 2302.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos7.html#res3-43">-Test de diagnóstico serológico para la Hepatitis E. Declaración de interés legislativo el trabajo realizado por el Instituto Superior de Investigaciones Biológicas (Insibio) para su desarrollo,</a> 2302.</p>
   
-  <p>-Secretaría de Niñez, Adolescencia y Familia. Solicitud al Poder Ejecutivo de su elevación a Ministerio, 2592.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#res3-13">-Secretaría de Niñez, Adolescencia y Familia. Solicitud al Poder Ejecutivo de su elevación a Ministerio,</a> 2592.</p>
   
-  <p>-“Desarrollo del Ecosistema de Triple Impacto, las Empresas B y las Compras Sustentables". Declaración de interés provincial, 2595.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#res3-16">-“Desarrollo del Ecosistema de Triple Impacto, las Empresas B y las Compras Sustentables". Declaración de interés provincial,</a> 2595.</p>
   
-  <p>-Resolución nº 27-7/04 sancionada por la H. Legislatura (Día de los Mayores Notables). Modificación, 2605.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#res3-26">-Resolución nº 27-7/04 sancionada por la H. Legislatura (Día de los Mayores Notables). Modificación,</a> 2605.</p>
   
-  <p>-Instituciones públicas de investigación orientadas a mejorar la capacidad local, regional y nacional para combatir la pandemia provocada por el SARS-COV-2. Solicitud al Poder Ejecutivo el otorgamiento de subsidios, 2610.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#res3-28">-Instituciones públicas de investigación orientadas a mejorar la capacidad local, regional y nacional para combatir la pandemia provocada por el SARS-COV-2. Solicitud al Poder Ejecutivo el otorgamiento de subsidios,</a> 2610.</p>
   
-  <p>-Ley n° 8761 (Responsabilidad Social y Ambiental). Solicitud al Poder Ejecutivo de su reglamentación y constitución del Consejo de Control de Empresas y Organizaciones Comprometidas con la Responsabilidad Social y Ambiental de Tucumán, 2613.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#res3-30">-Ley n° 8761 (Responsabilidad Social y Ambiental). Solicitud al Poder Ejecutivo de su reglamentación y constitución del Consejo de Control de Empresas y Organizaciones Comprometidas con la Responsabilidad Social y Ambiental de Tucumán,</a> 2613.</p>
   
-  <p>-Reductores de velocidad en Ruta Provincial n° 324, tramo: inicio de la Ruta Provincial n° 356 y Barrio Casa Rosada (Famaillá). Instalación, 2616.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos8.html#res3-33">-Reductores de velocidad en Ruta Provincial n° 324, tramo: inicio de la Ruta Provincial n° 356 y Barrio Casa Rosada (Famaillá). Instalación,</a> 2616.</p>
   
-  <p>-Obra de alumbrado público en la Ruta Provincial n° 330, tramo: Comuna de Alto Verde hasta Cortaderas. Solicitud al Poder Ejecutivo su inclusión como prioridad en la planificación de obras públicas correspondiente al año en curso, 3000.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#res3-6">-Obra de alumbrado público en la Ruta Provincial n° 330, tramo: Comuna de Alto Verde hasta Cortaderas. Solicitud al Poder Ejecutivo su inclusión como prioridad en la planificación de obras públicas correspondiente al año en curso,</a> 3000.</p>
   
-  <p>-Obra de alumbrado público en el “Camino Viejo", de la Comuna de Alto Verde hasta el Barrio San Emilie. Solicitud al Poder Ejecutivo su inclusión como prioridad en la planificación de obras públicas correspondiente al año en curso, 3002.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#res3-7">-Obra de alumbrado público en el “Camino Viejo", de la Comuna de Alto Verde hasta el Barrio San Emilie. Solicitud al Poder Ejecutivo su inclusión como prioridad en la planificación de obras públicas correspondiente al año en curso,</a> 3002.</p>
   
-  <p>-“Programa de Acceso a Servicios TIC" (Tecnologías de la Información y Comunicaciones). Inclusión a las localidades de Arcadia, Palo Blanco, Los Timbos y La Falda (Chicligasta), 3003.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#res3-8">-“Programa de Acceso a Servicios TIC" (Tecnologías de la Información y Comunicaciones). Inclusión a las localidades de Arcadia, Palo Blanco, Los Timbos y La Falda (Chicligasta),</a> 3003.</p>
   
-  <p>-“Programa de Acceso a Servicios TIC" (Tecnologías de la Información y Comunicaciones). Inclusión a las comunas de Yánima y El Corralito y La Cocha), 3005.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#res3-9">-“Programa de Acceso a Servicios TIC" (Tecnologías de la Información y Comunicaciones). Inclusión a las comunas de Yánima y El Corralito y La Cocha),</a> 3005.</p>
   
-  <p>-“Programa de Acceso a Servicios TIC" (Tecnologías de la Información y Comunicaciones). Inclusión de las localidades de Escaba y Batiruana (Juan Bautista Alberdi), 3006.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#res3-10">-“Programa de Acceso a Servicios TIC" (Tecnologías de la Información y Comunicaciones). Inclusión de las localidades de Escaba y Batiruana (Juan Bautista Alberdi),</a> 3006.</p>
   
-  <p>-“Creación del Parque Geológico- Paleontológico Insugeo - Horco Molle (Conicet-UNT)". Declaración de interés legislativo, científico, cultural y educativo, 3010.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#res3-14">-“Creación del Parque Geológico- Paleontológico Insugeo - Horco Molle (Conicet-UNT)". Declaración de interés legislativo, científico, cultural y educativo,</a> 3010.</p>
   
-  <p>-“Creación del Parque Geológico- Paleontológico Insugeo - Horco Molle (CONICET-UNT)". Declaración de interés científico, cultural y educativo, 3013.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#res3-15">-“Creación del Parque Geológico- Paleontológico Insugeo - Horco Molle (CONICET-UNT)". Declaración de interés científico, cultural y educativo,</a> 3013.</p>
   
-  <p>-Puente sobre el río Seco, nueva traza de la ruta nacional n° 38. Reparación de sus fallas constructivas y revisión del estado de todos los puentes de la mencionada ruta, 3033.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos9.html#res3-28">-Puente sobre el río Seco, nueva traza de la ruta nacional n° 38. Reparación de sus fallas constructivas y revisión del estado de todos los puentes de la mencionada ruta,</a> 3033.</p>
   
-  <p>-Ruta Nacional nº 38, Km 735, en el ingreso al centro de compras “Gómez Pardo" de Alto Verde (Chicligasta). Semaforización e iluminación, 3596.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#res3-8">-Ruta Nacional nº 38, Km 735, en el ingreso al centro de compras “Gómez Pardo" de Alto Verde (Chicligasta). Semaforización e iluminación,</a> 3596.</p>
   
-  <p>-Obra: empalme entre las Rutas Nacional nº 38 y Provincial nº 328, lado oeste, trayecto a finca León Cornet, Ischilón de Arcadia (Chicligasta). Realización, 3597.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#res3-9">-Obra: empalme entre las Rutas Nacional nº 38 y Provincial nº 328, lado oeste, trayecto a finca León Cornet, Ischilón de Arcadia (Chicligasta). Realización,</a> 3597.</p>
   
-  <p>-Protocolo que garantice la visita, acompañamiento y/o asistencia espiritual de pacientes en estado crítico, discapacitados, menores en situación final de vida o fallecimiento en hospitales y sanatorios. Establecimiento, 3615.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#res3-21">-Protocolo que garantice la visita, acompañamiento y/o asistencia espiritual de pacientes en estado crítico, discapacitados, menores en situación final de vida o fallecimiento en hospitales y sanatorios. Establecimiento,</a> 3615.</p>
   
-  <p>-Quema de cañaverales y demás delitos ambientales que afecten la salud pública. Exhortación al Ministerio Público Fiscal su investigación penal, 3618.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#res3-24">-Quema de cañaverales y demás delitos ambientales que afecten la salud pública. Exhortación al Ministerio Público Fiscal su investigación penal,</a> 3618.</p>
   
-  <p>-Resolución nº 92 del Comité Operativo de Emergencia (Prohibición del funcionamiento de bares, restaurantes y gimnasios entre otras actividades comerciales). Solicitud se deje sin efecto, 3643.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#res3-48">-Resolución nº 92 del Comité Operativo de Emergencia (Prohibición del funcionamiento de bares, restaurantes y gimnasios entre otras actividades comerciales). Solicitud se deje sin efecto,</a> 3643.</p>
   
-  <p>-Expediente n° 290-PL-16, sancionado el 30/08/2017 por la H. Legislatura (establecimiento del 19 de septiembre como Día de las Personas Sordas e Hipoacúsicas). Reiteración al Poder Ejecutivo su registración y publicación, 3645.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#res3-52">-Expediente n° 290-PL-16, sancionado el 30/08/2017 por la H. Legislatura (establecimiento del 19 de septiembre como Día de las Personas Sordas e Hipoacúsicas). Reiteración al Poder Ejecutivo su registración y publicación,</a> 3645.</p>
   
-  <p>-“Programa Tumiñiko" del Conglomerado Turístico Cultural Sustentable. Declaración de Interés Legislativo, 3647.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#res3-54">-“Programa Tumiñiko" del Conglomerado Turístico Cultural Sustentable. Declaración de Interés Legislativo,</a> 3647.</p>
   
-  <p>-Ley nº 9039 (Adhesión a la Ley Nacional Nº 25054: Bomberos Voluntarios). Solicitud al Poder Ejecutivo su Cumplimiento, 3653.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos10.html#res3-60">-Ley nº 9039 (Adhesión a la Ley Nacional Nº 25054: Bomberos Voluntarios). Solicitud al Poder Ejecutivo su Cumplimiento,</a> 3653.</p>
   
-  <p>-Tratamiento y medicamentos que se encuentra suministrando el Sistema Provincial de Salud a sus pacientes internados por Covid-19. Pedido de Informe. 4084.</p>	
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#res3-14">-Tratamiento y medicamentos que se encuentra suministrando el Sistema Provincial de Salud a sus pacientes internados por Covid-19. Pedido de Informe,</a> 4084.</p>	
   
-  <p>-“Instituto Nacional del Azúcar y el Alcohol". Solicitud al Presidente de la H. Cámara de Diputados de la Nación gestione la sanción de una ley para su creación; y al Presidente del Parlamento del NOA, CPN Osvaldo Francisco Jaldo, apoye e impulse esta iniciativa, 4092.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#res3-21">-“Instituto Nacional del Azúcar y el Alcohol". Solicitud al Presidente de la H. Cámara de Diputados de la Nación gestione la sanción de una ley para su creación; y al Presidente del Parlamento del NOA, CPN Osvaldo Francisco Jaldo, apoye e impulse esta iniciativa,</a> 4092.</p>
   
-  <p>-Presidencia de la Honorable Legislatura. Habilitación de la modalidad teletrabajo del trabajo parlamentario durante el período de pandemia Covid-19, 4097.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#res3-23">-Presidencia de la Honorable Legislatura. Habilitación de la modalidad teletrabajo del trabajo parlamentario durante el período de pandemia Covid-19,</a> 4097.</p>
   
-  <p>-Centros Educativos terapéuticos. Solicitud al Poder Ejecutivo autorice su reapertura, 4089.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#res3-25">-Centros Educativos terapéuticos. Solicitud al Poder Ejecutivo autorice su reapertura,</a> 4089.</p>
   
-  <p>-Predios aledaños al barrio Lomas de Tafí, ubicados en la zona Oeste límite con la avenida Camino del Perú altura de los sectores 6, 8, 16 y 17 (Tafí Viejo). Solicitud al Poder Ejecutivo evite la quema de los mismos, 4110.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos11.html#res3-34">-Predios aledaños al barrio Lomas de Tafí, ubicados en la zona Oeste límite con la avenida Camino del Perú altura de los sectores 6, 8, 16 y 17 (Tafí Viejo). Solicitud al Poder Ejecutivo evite la quema de los mismos,</a> 4110.</p>
   
-  <p>-Restablecimiento del servicio de agua en la zona de El Corte (Yerba Buena). Solicitud al Poder Ejecutivo, 4590.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#res3-3">-Restablecimiento del servicio de agua en la zona de El Corte (Yerba Buena). Solicitud al Poder Ejecutivo,</a> 4590.</p>
   
-  <p>-Artículo 3° de la Ley nº 9232 (Declaración en el ámbito de la Provincia a la actividad bancaria “Servicio Público Esencial" mientras se encuentre vigente la Emergencia Sanitaria). Solicitud de estricto cumplimiento, 4609.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#res3-22">-Artículo 3° de la Ley nº 9232 (Declaración en el ámbito de la Provincia a la actividad bancaria “Servicio Público Esencial" mientras se encuentre vigente la Emergencia Sanitaria). Solicitud de estricto cumplimiento,</a> 4609.</p>
   
-  <p>-Aplicación “Numerando" de Desarrollo Tucumano. Declaración de interés legislativo, 4624.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#res3-34">-Aplicación “Numerando" de Desarrollo Tucumano. Declaración de interés legislativo,</a> 4624.</p>
   
-  <p>-Comisión Especial de seguimiento y control de las acciones, políticas y programas que se implementen en la Provincia en el marco del Artículo 7º de la Ley nº 9057, 4625.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#res3-35">-Comisión Especial de seguimiento y control de las acciones, políticas y programas que se implementen en la Provincia en el marco del Artículo 7º de la Ley nº 9057,</a> 4625.</p>
   
-  <p>-Ministro de Seguridad, Comandante Mayor Claudio Maley. Citación a la próxima sesión legislativa a fin de brindar diversos informes, 4640.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#res3-45">-Ministro de Seguridad, Comandante Mayor Claudio Maley. Citación a la próxima sesión legislativa a fin de brindar diversos informes,</a> 4640.</p>
   
-  <p>-Doctor Juan Francisco Pisa, Juez de Instrucción Penal del Centro Judicial Capital. Exhortación al señor Gobernador se abstenga de la aceptación de su renuncia o jubilación, 4659.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos12.html#res3-52">-Doctor Juan Francisco Pisa, Juez de Instrucción Penal del Centro Judicial Capital. Exhortación al señor Gobernador se abstenga de la aceptación de su renuncia o jubilación,</a> 4659.</p>
   
-  <p>-78° Aniversario de la creación del hogar para ancianos San José (10 de noviembre). Declaración de interés legislativo, 5053.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#res3-5">-Afiliados al Subsidio de Salud que presentan síntomas de Covid-19. Solicitud al Poder Ejecutivo que garantice la cobertura,</a> 5048.</p>
   
-  <p>-Afiliados al Subsidio de Salud que presentan síntomas de Covid-19. Solicitud al Poder Ejecutivo que garantice la cobertura, 5048.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#res3-9">-78° Aniversario de la creación del hogar para ancianos San José (10 de noviembre). Declaración de interés legislativo,</a> 5053.</p>
+    
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#res3-24">-Obras de recuperación y mantenimiento de la Ruta Nacional N° 38 (Malla 437 LTE con Catamarca – INT. RN9). Solicitud de cumplimiento del contrato de concesión para desarrollarse entre noviembre de 2017 y octubre de 2022, y paralizada en marzo del año 2020,</a> 5075.</p>
   
-  <p>-Obras de recuperación y mantenimiento de la Ruta Nacional N° 38 (Malla 437 LTE con Catamarca – INT. RN9). Solicitud de cumplimiento del contrato de concesión para desarrollarse entre noviembre de 2017 y octubre de 2022, y paralizada en marzo del año 2020, 5075.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#res3-25">-Dichos de la Ministra de Gobierno y Justicia de la Provincia, Doctora Carolina Vargas Aignasse, celebrando la decisión del Presidente de la Nación de enviar el Proyecto de Ley de Legalización del Aborto al Congreso de la Nación. Rechazo,</a> 5076.</p>
   
-  <p>-Dichos de la Ministra de Gobierno y Justicia de la Provincia, Doctora Carolina Vargas Aignasse, celebrando la decisión del Presidente de la Nación de enviar el Proyecto de Ley de Legalización del Aborto al Congreso de la Nación. Rechazo, 5076.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos13.html#res3-26">-Proyecto de la Legalización del Aborto. Exhortación a los Diputados y Senadores Nacionales por Tucumán a su rechazo y a manifestarse a favor de la protección, el cuidado y el respeto de la vida humana desde la concepción a la mujer embarazada y al niño por nacer,</a> 5077.</p>
   
-  <p>-Proyecto de la Legalización del Aborto. Exhortación a los Diputados y Senadores Nacionales por Tucumán a su rechazo y a manifestarse a favor de la protección, el cuidado y el respeto de la vida humana desde la concepción a la mujer embarazada y al niño por nacer, 5077.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#res3-5">-Comisión Especial Investigadora para analizar, investigar, esclarecer y determinar el accionar de los titulares del Ersept. Creación,</a> 5586.</p>
   
-  <p>-Comisión Especial Investigadora para analizar, investigar, esclarecer y determinar el accionar de los titulares del Ersept. Creación, 5586.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#res3-6">-Ley n° 8352 (de creación de Juzgado de Paz Letrado en Los Nogales-Tafí Viejo-). Solicitud de efectivo cumplimiento,</a> 5587.</p>
   
-  <p>-Ley n° 8352 (de creación de Juzgado de Paz Letrado en Los Nogales-Tafí Viejo-). Solicitud de efectivo cumplimiento, 5587.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#res3-17">-Convenio de Turismo, suscripto por las provincias del Noroeste argentino. Solicitud de cumplimiento,</a> 5596.</p>
   
-  <p>-Convenio de Turismo, suscripto por las provincias del Noroeste argentino. Solicitud de cumplimiento, 5596.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#res3-25">-Servicio de agua en los Barrios de San Nicolás, Zavalía y Parque de la Ciudad de Concepción (Chicligasta). Restablecimiento,</a> 5601.</p>
   
-  <p>-Servicio de agua en los Barrios de San Nicolás, Zavalía y Parque de la Ciudad de Concepción (Chicligasta). Restablecimiento, 5601.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#res3-26">-Ruta Provincial nº 324, tramo: Chicligasta - Monteros. Reparación, señalización y mantenimiento,</a> 5602.</p>
   
-  <p>-Ruta Provincial nº 324, tramo: Chicligasta - Monteros. Reparación, señalización y mantenimiento, 5602.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#res3-27">-Ruta Provincial nº 328, tramo: Arcadia y Finca Cornet (Chicligasta). Reparación, señalización y mantenimiento,</a> 5602.</p>
   
-  <p>-Ruta Provincial nº 328, tramo: Arcadia y Finca Cornet (Chicligasta). Reparación, señalización y mantenimiento, 5602.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#res3-31">-55 años de la Conquista Diplomática del Gobierno de Arturo Illia en torno a las Islas Malvinas, al dictarse la Resolución nº 2065 de la Asamblea General de las Naciones Unidas que reconoce por primera vez la Soberanía Argentina. Adhesión a su conmemoración,</a> 5605.</p>
   
-  <p>-55 años de la Conquista Diplomática del Gobierno de Arturo Illia en torno a las Islas Malvinas, al dictarse la Resolución nº 2065 de la Asamblea General de las Naciones Unidas que reconoce por primera vez la Soberanía Argentina. Adhesión a su conmemoración, 5605.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos14.html#res3-35">-Ley Nacional nº 26093 (Régimen de Regulación y Promoción para la Producción y Uso Sustentable de Biocombustible). Solicitud a los miembros de la H. Cámara de Diputados de la Nación procedan a sancionar su prórroga,</a> 5608.</p>
   
-  <p>-Ley Nacional nº 26093 (Régimen de Regulación y Promoción para la Producción y Uso Sustentable de Biocombustible). Solicitud a los miembros de la H. Cámara de Diputados de la Nación procedan a sancionar su prórroga, 5608.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos15.html#res3-2">-Señor Ministro de Educación de la Provincia, licenciado Juan Pablo Lichtmajer. Pedido de informe sobre los $ 100 millones destinados para la realización de actos de colación de grados de la promoción 2020,</a> 5843.</p>
   
-  <p>-Señor Ministro de Educación de la Provincia, licenciado Juan Pablo Lichtmajer. Pedido de informe sobre los $ 100 millones destinados para la realización de actos de colación de grados de la promoción 2020, 5843.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos15.html#res3-5">-Cajeros automáticos en Taco Ralo (Graneros). Solicitud de instalación,</a> 5844.</p>
   
-  <p>-Cajeros automáticos en Taco Ralo (Graneros). Solicitud de instalación, 5844.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos15.html#res3-6">-Ruta Provincial n° 325, tramo de acceso a los Valles Calchaquíes. Solicitud de realización de tareas de mantenimiento, reparación y demarcación vertical y horizontal,</a> 5845.</p>
   
-  <p>-Ruta Provincial n° 325, tramo de acceso a los Valles Calchaquíes. Solicitud de realización de tareas de mantenimiento, reparación y demarcación vertical y horizontal, 5845.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos15.html#res3-7">-“Camino a Medina", desde Ruta Provincial n° 329, en localidad de Medina (Chicligasta). Solicitud de realización de tareas de mantenimiento, reparación, señalización y de obra de alumbrado público,</a> 5846.</p>
   
-  <p>-“Camino a Medina", desde Ruta Provincial n° 329, en localidad de Medina (Chicligasta). Solicitud de realización de tareas de mantenimiento, reparación, señalización y de obra de alumbrado público, 5846.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos15.html#res3-8">-“Camino a Viltrán", desde Ruta Nacional n° 157, en localidad de Taco Ralo (Graneros). Solicitud de realización de tareas de mantenimiento, reparación, señalización y de obra de alumbrado público,</a> 5847.</p>
   
-  <p>-“Camino a Viltrán", desde Ruta Nacional n° 157, en localidad de Taco Ralo (Graneros). Solicitud de realización de tareas de mantenimiento, reparación, señalización y de obra de alumbrado público, 5847.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos15.html#res3-9">-Pozo de agua en Taco Ralo (Graneros). Reparación y/o construcción de uno nuevo,</a> 5847.</p>
   
-  <p>-Pozo de agua en Taco Ralo (Graneros). Reparación y/o construcción de uno nuevo, 5847.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos15.html#res3-19">-Ley Nacional n° 26093 (Régimen de Regulación y Promoción para la Producción y Uso Sustentable de Biocombustibles). Exhortación a su Prórroga,</a> 5854.</p>
   
-  <p>-Ley Nacional n° 26093 (Régimen de Regulación y Promoción para la Producción y Uso Sustentable de Biocombustibles). Exhortación a su Prórroga, 5854.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos16.html#res3-3">-“Camino al Pozo del Pescado", en la ex Ruta Nacional nº 9, desde la ciudad de Trancas. Acondicionamiento, mantenimiento, reparación y señalización,</a> 6024.</p>
   
-  <p>-“Camino al Pozo del Pescado", en la ex Ruta Nacional nº 9, desde la ciudad de Trancas. Acondicionamiento, mantenimiento, reparación y señalización, 6024.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos16.html#res3-4">-Ley nº 8276  (De prioridad y preferente atención a mujeres embarazadas, personas con discapacidad, enfermos oncológicos y mayores de 70 años en dependencias públicas). Solicitud de efectivo cumplimiento,</a> 6025.</p>
   
-  <p>-Ley nº 8276  (De prioridad y preferente atención a mujeres embarazadas, personas con discapacidad, enfermos oncológicos y mayores de 70 años en dependencias públicas). Solicitud de efectivo cumplimiento, 6025.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos16.html#res3-5">-Centros educativos y escolares de la Provincia. Limpieza, desmalezamiento y mantenimiento ante el inminente comienzo de clases,</a> 6026.</p>
   
-  <p>-Centros educativos y escolares de la Provincia. Limpieza, desmalezamiento y mantenimiento ante el inminente comienzo de clases, 6026.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos16.html#res3-6">-Ruta Provincial N° 308. Colocación de reductores de velocidad en áreas urbanas, y realización de tareas de mantenimiento, reparación y demarcación vertical y horizontal,</a> 6026.</p>
   
-  <p>-Ruta Provincial N° 308. Colocación de reductores de velocidad en áreas urbanas, y realización de tareas de mantenimiento, reparación y demarcación vertical y horizontal, 6026.</p>
-  <a name="alfaro"></a>
-  <p>-Beneficio para litigar sin gastos. Exhortación al Poder Judicial de la Provincia la urgente actualización de los importes estipulados para su otorgamiento, 6037.</p>
+  <p><a href="/periodo115/asuntoslink/asuntos16.html#res3-16">-Beneficio para litigar sin gastos. Exhortación al Poder Judicial de la Provincia la urgente actualización de los importes estipulados para su otorgamiento,</a> 6037.</p>
   
                   <div class="position-fixed bottom-0 start-50 translate-middle-x w-auto text-center">
                     <nav aria-label="Page navigation example z-5">
@@ -884,14 +897,13 @@
       <div class="lista-periodos">
         <ul>
           <h4>Períodos Legislativos</h4>
-            <li class="option"><a href="#"><p>120° Período Legislativo<br> 01/03/2025-28/02/2026 </p></a></li>
-            <li class="option"><a href="#"><p>119° Período Legislativo <br> 01/03/2024-28/02/2025 </p></a></li> 
-            <li class="option"><a href="#"><p>118° Período Legislativo <br> 01/03/2023-29/02/2024 </p></a></li> 
-            <li class="option"><a href="#"><p>117° Período Legislativo <br> 01/03/2022-28/02/2023 </p></a></li>  
-            <li class="option"><a href="#"><p>116° Período Legislativo <br> 01/03/2021-28/02/2022</p></a></li>
-            <li class="option"><a href="/periodo115/legisladores/autoridades.html"><p>115° Período <br> 01/03/2020-28/02/2021</p></a></li>   
-            <li class="option"><a href="#"><p>114° Período Legislativo <br> 01/03/2019-29/02/2020</p></a></li>
-            <li class="option"><a href="#"><p>113° Período Legislativo <br> 01/03/2018-28/02/2019</p></a></li> 
+              <li class="option"><a href="/index.html"><p>120° Período Legislativo <br> 01/03/2025-28/02/2026 </p></a></li>
+              <li class="option"><a href="/index.html"><p>119° Período Legislativo <br>01/03/2024-28/02/2025 </p></a></li> 
+              <li class="option"><a href="/index.html"><p>118° Período Legislativo <br>01/03/2023-29/02/2024 </p></a></li> 
+              <li class="option"><a href="/index.html"><p>117° Período Legislativo <br>01/03/2022-28/02/2023 </p></a></li>  
+              <li class="option"><a href="/index.html"><p>116° Período Legislativo <br>01/03/2021-28/02/2022</p></a></li>
+              <li class="option"><a href="/index.html"><p>115° Período Legislativo <br>01/03/2020-28/02/2021</p></a></li>   
+              <li class="option"><a href="/index.html"><p>114° Período Legislativo <br>01/03/2019-29/02/2020</p></a></li>
         </ul>
       </div>
 </div>
@@ -901,5 +913,8 @@
 </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="nomenclador.js"></script>
+
+  
+            <script src="/periodo115/legisladores/mandatoleg.js"></script>
 </body>
 </html>

@@ -210,7 +210,7 @@ body{
 /*comienzo mandatos*/
 
 .leg-mandato{
-    margin: 3% 15% 18% 0;
+    margin: 2% 5% 18% 12%;
     display: grid;
     height: auto;
     width: auto;
@@ -300,7 +300,7 @@ body{
 
 .leg-mandato2{
     
-    margin: 3% 15% 18% 0;
+    margin: 3% 25% 18% 0;
     display: grid;
     height: auto;
     width: auto;
@@ -358,7 +358,7 @@ body{
 
 .leg-mandato3{
    
-    margin: 3% 15% 18% 0;
+    margin: 3% 25% 18% 0;
     display: grid;
     height: auto;
     width: auto;
@@ -651,6 +651,98 @@ pagina anterior
 }
  /*fin before*/
 
+/* Contenedor del menú hamburguesa en navbar*/
+.menu-hamburger {
+  position: relative;
+  display: inline-block;
+}
+
+/* Botón hamburguesa */
+.hamburger-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.hamburger-btn span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-btn:hover span {
+  background: #fff;
+  transform: scaleX(1.1);
+}
+
+/* Menú desplegable */
+.hamburger-menu {
+  display: none;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  min-width: 220px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  z-index: 1000;
+  border-radius: 4px;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  animation: fadeIn 0.2s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.menu-item {
+  display: block;
+  color: #333;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+  transition: all 0.2s;
+}
+
+/* Poder Judicial - Azul */
+.menu-item:nth-child(1) {
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: white;
+  border-left: 4px solid #1f618d;
+}
+
+.menu-item:nth-child(1):hover {
+  background: linear-gradient(135deg, #2980b9, #1f618d);
+  color: white;
+  padding-left: 25px;
+  transform: translateX(5px);
+}
+
+/* Poder Ejecutivo - Rojo */
+.menu-item:nth-child(2) {
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+  color: white;
+  border-left: 4px solid #a93226;
+  border-bottom: none;
+}
+
+.menu-item:nth-child(2):hover {
+  background: linear-gradient(135deg, #c0392b, #a93226);
+  color: white;
+  padding-left: 25px;
+  transform: translateX(5px);
+  
+}
 @media only screen and (min-width: 300px) and (max-width: 768px){
     .leg-mandato{
         font-size: .6em;

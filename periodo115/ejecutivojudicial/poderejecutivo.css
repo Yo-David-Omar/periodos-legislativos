@@ -135,13 +135,13 @@ p{
     text-decoration: none;
     color: black;
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(97, 154, 207);
 }
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(97, 154, 207);
+    color: rgb(71, 115, 157);
     margin: 10px 0 5px 0;
     letter-spacing: 1px;
 }
@@ -175,7 +175,7 @@ h2{
 .borde2{
     
     position: fixed;
-    top: 2%;
+    top: 10%;
     left: 80%;
     width: 20%;
     z-index: 400;
@@ -222,6 +222,9 @@ h2{
     width: 90%;   
 }
 /*-----------------------------------------------------------------*/
+
+
+
 /*
 .opcion2 a:hover img{
     display: block;

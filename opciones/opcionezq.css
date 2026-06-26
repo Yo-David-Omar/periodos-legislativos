@@ -176,7 +176,7 @@ Responsive en todos)*/
     transition: all .5s;
     text-decoration: none;
     color: #ffffff;
-    font-size: .8em;
+    font-size: .6em;
 }
 
 .btop a:hover{
@@ -371,7 +371,7 @@ img{
     }
     
     .borde1 a{
-        font-size: .9em;
+        font-size: .7em;
         margin-left: 4%;
     }
 
@@ -438,7 +438,7 @@ img{
     }
 
     .btop a{
-        font-size: .7em;
+        font-size: .5em;
     }
     .btop a:hover{
         font-size: .9em;
